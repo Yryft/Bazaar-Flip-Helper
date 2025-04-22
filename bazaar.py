@@ -1,9 +1,9 @@
 import requests, time, json, os, platform, subprocess, threading
-from tkinter import messagebox
 from openpyxl import Workbook
 from openpyxl.worksheet.datavalidation import DataValidation
 from openpyxl.styles import Alignment, Font, NamedStyle, PatternFill
 from openpyxl.worksheet.table import Table, TableStyleInfo
+from collections import defaultdict
 
 # URL de l'API du bazaar
 API_URL = "https://api.hypixel.net/skyblock/bazaar"
@@ -11,28 +11,6 @@ API_URL = "https://api.hypixel.net/skyblock/bazaar"
 # Variable partagée
 user_pressed = False
 
-# Charger les données depuis le fichier crafts.json
-def load_craft_data(craft_filename="crafts.json"):
-    try:
-        with open(craft_filename, encoding="utf-8") as file:
-            return json.load(file)
-
-    except FileNotFoundError:
-        messagebox.showerror("Erreur", f"Le fichier {craft_filename} est introuvable.")
-        return {}
-    except json.JSONDecodeError:
-        messagebox.showerror("Erreur", f"Erreur lors de la lecture du fichier {craft_filename}.")
-        return {}
-
-# Fonction pour récupérer les données du bazaar via l'API
-def get_bazaar_data():
-    try:
-        response = requests.get(API_URL)
-        response.raise_for_status()  # Vérifie si la requête a réussi
-        return response.json()
-    except requests.exceptions.RequestException as e:
-        messagebox.showerror("Erreur", f"Erreur de connexion à l'API du bazaar : {e}")
-        return None
 
 # Fonction mise à jour pour enregistrer ou modifier le fichier Excel
 def save_to_excel(data, filename="bazaar_data.xlsx"):
@@ -44,7 +22,7 @@ def save_to_excel(data, filename="bazaar_data.xlsx"):
     sheet.title = "Bazaar Analysis"
 
     # Ajouter les en-têtes
-    headers = ["Item", "Buy Price", "Sell Price", "Profit", "Supply & Demand", "Profit per coin"]
+    headers = ["Item", "Buy Price", "Sell Price", "Profit", "Supply & Demand", "Profit per coin", "Craftable"]
     sheet.append(headers)
 
     # Ajouter un style pour les nombres avec un séparateur des milliers
@@ -56,9 +34,12 @@ def save_to_excel(data, filename="bazaar_data.xlsx"):
         item_name = values["name"]  # Nom de l'objet
         wiki_url = values.get("wiki", "")  # URL du wiki, si disponible
 
-        buy_price = values["sell_price"]
-        sell_price = values["buy_price"]
-        profit = sell_price - buy_price  # Correction : profit = sell_price - buy_price
+        buy_price = values["buy_price"]
+        sell_price = values["sell_price"]
+        craftable = values["craft"]["craftable"]
+        craft_profit = values["craft"]["craft_profit"]
+        materials = values["craft"]["materials"]
+        profit = values["profit"]
         buy_volume = values["buy_volume"]
         sell_volume = values["sell_volume"]
 
@@ -74,9 +55,10 @@ def save_to_excel(data, filename="bazaar_data.xlsx"):
         sheet.cell(row=row, column=4, value=profit).style = number_style
         sheet.cell(row=row, column=5, value=f"{buy_volume}/{sell_volume}")
         sheet.cell(row=row, column=6, value=profit/buy_price).style = number_style
+        sheet.cell(row=row, column=7, value=craftable)
 
     # Ajouter un tableau Excel (avec filtres)
-    data_range = f"A1:F{len(data) + 1}"  # La plage de données pour le tableau
+    data_range = f"A1:G{len(data) + 1}"  # La plage de données pour le tableau
     table = Table(displayName="BazaarTable", ref=data_range)
 
     # Style du tableau
@@ -160,19 +142,103 @@ def save_to_excel(data, filename="bazaar_data.xlsx"):
     # Sauvegarder le fichier
     wb.save(filename)
 
-# Fonction pour calculer le profit
-def calculate_profit(bazaar_data, craft_data):
+# Charger les données depuis le fichier crafts.json
+def load_craft_data(craft_filename="crafts.json"):
+    try:
+        with open(craft_filename, encoding="utf-8") as file:
+            return json.load(file)
+
+    except FileNotFoundError:
+        print("Erreur", f"Le fichier {craft_filename} est introuvable.")
+        return {}
+    except json.JSONDecodeError:
+        print("Erreur", f"Erreur lors de la lecture du fichier {craft_filename}.")
+        return {}
+    
+def get_bazaar_data():
+    try:
+        response = requests.get(API_URL)
+        response.raise_for_status()  # Vérifie si la requête a réussi
+        return response.json()
+    except requests.exceptions.RequestException as e:
+        print("Erreur", f"Erreur de connexion à l'API du bazaar : {e}")
+        return None
+
+def parse_ingredients(recipe):
+    totals = defaultdict(int)
+    for value in recipe.values():
+        if isinstance(value, str) and ":" in value:
+            item_id, amount = value.split(":")
+            totals[item_id] += int(amount)
+
+    # This returns a dictionary with item_id as keys and their corresponding amounts as values
+    return {k: v for k, v in totals.items()}
+
+
+def load_crafts(craft_data, bazaar_data):
+    possible_crafts_bazaar = {
+            item:      
+            {
+                "item_id": item,
+                "ingredients": parse_ingredients(craft_data[item]["recipe"])
+            }
+            for item in craft_data
+            if item in bazaar_data["products"] and "recipe" in craft_data[item]
+    }
+
+    with open(f"Ingredients.json", "w", encoding="utf-8") as file:
+        json.dump(possible_crafts_bazaar, file, indent=4)
+    return possible_crafts_bazaar
+
+def calculate_profit(bazaar_data, craft_data, ingredients):
     profits = []
+    craft = {}
+    item_craft_profit = 0
+    if not ingredients:
+        print("Aucun ingredients")
+        
+    if not bazaar_data:
+        print("Aucun bazaar")
+        
+    if not craft_data:
+        print("Aucun craft")
+        
     for item_id, product in bazaar_data["products"].items():
+        if item_id in ingredients:
+            item_craft_profit = 0
+            for ingredient, quantity in ingredients[item_id]["ingredients"].items():
+                if ingredient in bazaar_data["products"] and bazaar_data["products"][ingredient]["buy_summary"] and bazaar_data["products"][ingredient]["sell_summary"]:
+                    buy_price = bazaar_data["products"][ingredient]["sell_summary"][0]["pricePerUnit"]
+                    sell_price = bazaar_data["products"][ingredient]["buy_summary"][0]["pricePerUnit"]
+                    if (sell_price / buy_price - 1)*100 > 80 and (sell_price - buy_price) > 100:
+                        item_craft_profit = 0
+                        break
+                    profit = round(sell_price - buy_price, 1)
+                    item_craft_profit += profit*quantity
+            craft = {
+                "craftable": True if item_craft_profit > 0 else False,
+                "craft_profit": item_craft_profit,
+                "materials": {
+                    craft_data.get(ingredient, {}).get("name", ingredient): quantity
+                    for ingredient, quantity in ingredients[item_id]["ingredients"].items()
+                }
+            }
+            print(f"Item: {item_id}, Profit total du craft: {round(item_craft_profit):,}\n".replace(",", " ") if item_craft_profit > 0 else f"Profit trop grand pour le craft de {item_id}\n")
+        else:
+            craft = {
+                "craftable": False,
+                "craft_profit": 0,
+                "materials": {}
+            }
         # Vérifier si les données d'achat/vente sont disponibles
         if product["buy_summary"] and product["sell_summary"]:
-            buy_price = product["buy_summary"][0]["pricePerUnit"]
-            sell_price = product["sell_summary"][0]["pricePerUnit"]
+            buy_price = product["sell_summary"][0]["pricePerUnit"]
+            sell_price = product["buy_summary"][0]["pricePerUnit"]
 
             if buy_price == 0 or sell_price == 0:
                 continue  # Si les prix sont à 0, on ignore cet item
 
-            profit = sell_price - buy_price
+            profit = round(sell_price - buy_price, 1)
 
             # Chercher le nom et l'ID wiki dans craft.json
             item_name = craft_data.get(item_id, {}).get("name", item_id)
@@ -188,11 +254,13 @@ def calculate_profit(bazaar_data, craft_data):
                 'buy_price': buy_price,
                 'sell_price': sell_price,
                 'profit': profit,
+                'craft': craft,
                 'sell_volume': product["sell_summary"][0]["amount"],
                 'buy_volume': product["buy_summary"][0]["amount"],
                 'wiki': wiki_url  # Lien vers le wiki
             })
-
+    with open(f"Profits.json", "w", encoding="utf-8") as file:
+        json.dump(profits, file, indent=4)
     return profits
 
 # Fonction pour exécuter l'analyse et afficher les résultats
@@ -208,7 +276,7 @@ def run_analysis():
         return []
 
     # Calculer les profits
-    results = calculate_profit(bazaar_data, craft_data)
+    results = calculate_profit(bazaar_data, craft_data, load_crafts(craft_data, bazaar_data))
 
     # Afficher les résultats dans la console (ou GUI)
     for result in results:
