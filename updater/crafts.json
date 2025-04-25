@@ -14405,7 +14405,7 @@
         "wiki": "https://wiki.hypixel.net/Emmett_Pointer"
     },
     "EMPTY_CHUMCAP_BUCKET": {
-        "name": "3x Empty Chumcap Bucket",
+        "name": "Empty Chumcap Bucket",
         "recipe": {
             "A1": "AGARICUS_CHUM_CAP:1",
             "A2": "AGARICUS_CHUM_CAP:1",

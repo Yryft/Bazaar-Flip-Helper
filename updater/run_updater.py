@@ -1,15 +1,29 @@
-import os
-import json
-import re
-import requests
+import requests, zipfile, io, shutil, re, json, os
 from collections import defaultdict
+
+repo = "NotEnoughUpdates/NotEnoughUpdates-REPO"
+branch = "master"
+folder_to_extract = "items"
 
 API_URL = "https://api.hypixel.net/skyblock/bazaar"
 # Path to the folder containing the JSON files
-folder_path = "items"
+folder_path = "NotEnoughUpdates-REPO-master/items"
 
+zip_url = f"https://github.com/{repo}/archive/refs/heads/{branch}.zip"
 # Output dictionary
 output = {}
+
+
+def get_neu_data():
+    # Download and extract only the folder
+    print("Downloading NEU's REPO...")
+    response = requests.get(zip_url)
+    with zipfile.ZipFile(io.BytesIO(response.content)) as zip_ref:
+        print("Extracting...")
+        for member in zip_ref.namelist():
+            if member.startswith(f"{repo.split('/')[-1]}-{branch}/{folder_to_extract}"):
+                zip_ref.extract(member)
+        print(".json files downloaded !")
 
 # Regex to remove Minecraft color codes (like §9, §7, etc.)
 def remove_color_codes(text):
@@ -44,6 +58,8 @@ def jsons():
         json.dump(output, outfile, indent=4)
 
     print("Succès : crafts.json mis à jour.")
+    shutil.rmtree('NotEnoughUpdates-REPO-master')
+    print("Succès : NotEnoughUpdates-REPO-master supprimé.")
 
 def parse_ingredients(recipe):
     totals = defaultdict(int)
@@ -90,7 +106,8 @@ def get_bazaar_data():
     except requests.exceptions.RequestException as e:
         print("Erreur", f"Erreur de connexion à l'API du bazaar : {e}")
         return None
-
-load_crafts(load_craft_data(), get_bazaar_data())
+    
+get_neu_data()
 jsons()
+load_crafts(load_craft_data(), get_bazaar_data())
 input("\n\nAppuie sur Entrée pour quitter...")
