@@ -1,11 +1,11 @@
 import requests, zipfile, io, shutil, re, json, os
 from collections import defaultdict
 
+API_URL = "https://api.hypixel.net/skyblock/bazaar"
+
 repo = "NotEnoughUpdates/NotEnoughUpdates-REPO"
 branch = "master"
 folder_to_extract = "items"
-
-API_URL = "https://api.hypixel.net/skyblock/bazaar"
 # Path to the folder containing the JSON files
 folder_path = "NotEnoughUpdates-REPO-master/items"
 
@@ -53,11 +53,11 @@ def jsons():
                     print(f"Error decoding JSON in file: {filename}")
 
     # Save to a single JSON file
-    output_path = "crafts.json"
+    output_path = "items.json"
     with open(output_path, "w", encoding="utf-8") as outfile:
         json.dump(output, outfile, indent=4)
 
-    print("Succès : crafts.json mis à jour.")
+    print("Succès : items.json mis à jour.")
     shutil.rmtree('NotEnoughUpdates-REPO-master')
     print("Succès : NotEnoughUpdates-REPO-master supprimé.")
 
@@ -71,7 +71,7 @@ def parse_ingredients(recipe):
     # This returns a dictionary with item_id as keys and their corresponding amounts as values
     return {k: v for k, v in totals.items()}
 
-def load_craft_data(craft_filename="crafts.json"):
+def load_craft_data(craft_filename="items.json"):
     try:
         with open(craft_filename, encoding="utf-8") as file:
             return json.load(file)
@@ -91,7 +91,7 @@ def load_crafts(craft_data, bazaar_data):
                 "ingredients": parse_ingredients(craft_data[item]["recipe"])
             }
             for item in craft_data
-            if item in bazaar_data["products"] and "recipe" in craft_data[item]
+            if item in bazaar_data["products"] and craft_data[item]["recipe"]
     }
     with open(f"Ingredients.json", "w", encoding="utf-8") as file:
         json.dump(possible_crafts_bazaar, file, indent=4)

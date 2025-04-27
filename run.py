@@ -139,7 +139,7 @@ def save_to_excel(data, filename="bazaar_helper.xlsx"):
 
 
 # Charger les données depuis le fichier crafts.json
-def load_craft_data(craft_filename="updater/crafts.json"):
+def load_craft_data(craft_filename="updater/items.json"):
     try:
         with open(craft_filename, encoding="utf-8") as file:
             return json.load(file)
@@ -169,20 +169,23 @@ def load_crafts():
 def calculate_profit(bazaar_data, craft_data, ingredients):
     profits = []
     craft = {}
-    item_craft_profit = 0
         
     for item_id, product in bazaar_data["products"].items():
+        print(f"{craft_data.get(item_id, {}).get("name", item_id)} : ")
         if item_id in ingredients:
             item_craft_profit = 0
+            total_cost = 0
             for ingredient, quantity in ingredients[item_id]["ingredients"].items():
                 if ingredient in bazaar_data["products"] and bazaar_data["products"][ingredient]["buy_summary"] and bazaar_data["products"][ingredient]["sell_summary"]:
                     buy_price = bazaar_data["products"][ingredient]["sell_summary"][0]["pricePerUnit"]
                     sell_price = bazaar_data["products"][ingredient]["buy_summary"][0]["pricePerUnit"]
-                    if (sell_price / buy_price - 1)*100 > 80 and (sell_price - buy_price) > 100:
-                        item_craft_profit = 0
-                        break
-                    profit = round(sell_price - buy_price, 1)
-                    item_craft_profit += profit*quantity
+                    total_cost += round(buy_price, 1) * quantity
+            try:
+                item_craft_profit = round(bazaar_data["products"][item_id]["sell_summary"][0]["pricePerUnit"] - total_cost) if total_cost > 0.05*bazaar_data["products"][item_id]["sell_summary"][0]["pricePerUnit"] else 0
+                print(f"Total Craft Cost: {total_cost}/Direct Cost: {product['sell_summary'][0]['pricePerUnit']}\nProfit: {item_craft_profit}")
+            except:
+                item_craft_profit = 0
+                print(f"Total Craft Cost: {total_cost}/Direct Cost: N/A\nProfit: N/A")
             craft = {
                 "craftable": True if item_craft_profit > 0 else False,
                 "craft_profit": item_craft_profit,
@@ -216,11 +219,10 @@ def calculate_profit(bazaar_data, craft_data, ingredients):
 
         # Chercher le nom et l'ID wiki dans craft.json
         item_name = craft_data.get(item_id, {}).get("name", item_id)
-        if not item_name == item_id:
-            wiki_url = f"https://wiki.hypixel.net/{item_name}"  # Lien vers le wiki
-        else:
-            wiki_url = None
+        wiki_url = craft_data.get(item_id, {}).get("wiki", "")
             
+        print(f"Buy Price: {buy_price} | Sell Price: {sell_price} | Profit: {profit}\nWiki: {wiki_url}\n")
+          
         # Ajouter les données au résultat
         profits.append({
             'item': item_id,
@@ -269,9 +271,14 @@ def start():
         print("Excel est fermé.")
         
     filename = "bazaar_helper.xlsx"
-    results = run_analysis()
-    if not results:
-        print("Aucun résultat. Aucune donnée à sauvegarder.")
+    try:
+        results = run_analysis()
+        if not results:
+            print("Aucun résultat. Aucune donnée à sauvegarder.")
+            input("\n\nAppuie sur Entrée pour quitter...")
+            return
+    except Exception as e:
+        print("Erreur : Une erreur s'est produite :", e)
         input("\n\nAppuie sur Entrée pour quitter...")
         return
 

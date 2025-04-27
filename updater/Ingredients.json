@@ -11,72 +11,12 @@
             "ENCHANTED_ACACIA_LOG": 384
         }
     },
-    "AGARIMOO_TONGUE": {
-        "item_id": "AGARIMOO_TONGUE",
-        "ingredients": {}
-    },
-    "ALLIGATOR_SKIN": {
-        "item_id": "ALLIGATOR_SKIN",
-        "ingredients": {}
-    },
-    "AMALGAMATED_CRIMSONITE": {
-        "item_id": "AMALGAMATED_CRIMSONITE",
-        "ingredients": {}
-    },
-    "AMALGAMATED_CRIMSONITE_NEW": {
-        "item_id": "AMALGAMATED_CRIMSONITE_NEW",
-        "ingredients": {}
-    },
-    "AMBER_MATERIAL": {
-        "item_id": "AMBER_MATERIAL",
-        "ingredients": {}
-    },
-    "ANCIENT_CLAW": {
-        "item_id": "ANCIENT_CLAW",
-        "ingredients": {}
-    },
-    "AOTE_STONE": {
-        "item_id": "AOTE_STONE",
-        "ingredients": {}
-    },
-    "ARACHNE_FANG": {
-        "item_id": "ARACHNE_FANG",
-        "ingredients": {}
-    },
-    "ARACHNE_FRAGMENT": {
-        "item_id": "ARACHNE_FRAGMENT",
-        "ingredients": {}
-    },
-    "ARACHNE_KEEPER_FRAGMENT": {
-        "item_id": "ARACHNE_KEEPER_FRAGMENT",
-        "ingredients": {}
-    },
-    "ARCHITECT_FIRST_DRAFT": {
-        "item_id": "ARCHITECT_FIRST_DRAFT",
-        "ingredients": {}
-    },
-    "ARROW_BUNDLE_MAGMA": {
-        "item_id": "ARROW_BUNDLE_MAGMA",
-        "ingredients": {}
-    },
-    "ASCENSION_ROPE": {
-        "item_id": "ASCENSION_ROPE",
-        "ingredients": {}
-    },
     "AUTO_SMELTER": {
         "item_id": "AUTO_SMELTER",
         "ingredients": {
             "COBBLESTONE": 64,
             "COAL": 1
         }
-    },
-    "AVARICIOUS_CHALICE": {
-        "item_id": "AVARICIOUS_CHALICE",
-        "ingredients": {}
-    },
-    "BAT_FIREWORK": {
-        "item_id": "BAT_FIREWORK",
-        "ingredients": {}
     },
     "BAYOU_WATER_ORB": {
         "item_id": "BAYOU_WATER_ORB",
@@ -92,47 +32,11 @@
             "POISON_SAMPLE": 1
         }
     },
-    "BEADY_EYES": {
-        "item_id": "BEADY_EYES",
-        "ingredients": {}
-    },
-    "BEATING_HEART": {
-        "item_id": "BEATING_HEART",
-        "ingredients": {}
-    },
-    "BEJEWELED_HANDLE": {
-        "item_id": "BEJEWELED_HANDLE",
-        "ingredients": {}
-    },
     "BERBERIS_FUEL_INJECTOR": {
         "item_id": "BERBERIS_FUEL_INJECTOR",
         "ingredients": {
             "WILTED_BERBERIS": 336
         }
-    },
-    "BEZOS": {
-        "item_id": "BEZOS",
-        "ingredients": {}
-    },
-    "BLACK_WOOLEN_YARN": {
-        "item_id": "BLACK_WOOLEN_YARN",
-        "ingredients": {}
-    },
-    "BLAZEN_SPHERE": {
-        "item_id": "BLAZEN_SPHERE",
-        "ingredients": {}
-    },
-    "BLAZE_ASHES": {
-        "item_id": "BLAZE_ASHES",
-        "ingredients": {}
-    },
-    "BLAZE_ROD": {
-        "item_id": "BLAZE_ROD",
-        "ingredients": {}
-    },
-    "BLAZE_ROD_DISTILLATE": {
-        "item_id": "BLAZE_ROD_DISTILLATE",
-        "ingredients": {}
     },
     "BLAZE_WAX": {
         "item_id": "BLAZE_WAX",
@@ -149,10 +53,6 @@
             "PRISMARINE_CRYSTALS": 1
         }
     },
-    "BLESSED_FRUIT": {
-        "item_id": "BLESSED_FRUIT",
-        "ingredients": {}
-    },
     "BLOOD_SOAKED_COINS": {
         "item_id": "BLOOD_SOAKED_COINS",
         "ingredients": {
@@ -167,50 +67,6 @@
             "FRESHLY_MINTED_COINS": 1
         }
     },
-    "BLUE_ICE_HUNK": {
-        "item_id": "BLUE_ICE_HUNK",
-        "ingredients": {}
-    },
-    "BLUE_RING": {
-        "item_id": "BLUE_RING",
-        "ingredients": {}
-    },
-    "BLUE_SHARK_TOOTH": {
-        "item_id": "BLUE_SHARK_TOOTH",
-        "ingredients": {}
-    },
-    "BOBBIN_SCRIPTURES": {
-        "item_id": "BOBBIN_SCRIPTURES",
-        "ingredients": {}
-    },
-    "BOB_OMB": {
-        "item_id": "BOB_OMB",
-        "ingredients": {}
-    },
-    "BONE": {
-        "item_id": "BONE",
-        "ingredients": {}
-    },
-    "BONZO_FRAGMENT": {
-        "item_id": "BONZO_FRAGMENT",
-        "ingredients": {}
-    },
-    "BOOKWORM_BOOK": {
-        "item_id": "BOOKWORM_BOOK",
-        "ingredients": {}
-    },
-    "BOOK_OF_STATS": {
-        "item_id": "BOOK_OF_STATS",
-        "ingredients": {}
-    },
-    "BOOSTER_COOKIE": {
-        "item_id": "BOOSTER_COOKIE",
-        "ingredients": {}
-    },
-    "BOUNCY_BEACH_BALL": {
-        "item_id": "BOUNCY_BEACH_BALL",
-        "ingredients": {}
-    },
     "BOX_OF_SEEDS": {
         "item_id": "BOX_OF_SEEDS",
         "ingredients": {
@@ -224,64 +80,12 @@
             "SOUL_STRING": 256
         }
     },
-    "BRIMSTONE_HANDLE": {
-        "item_id": "BRIMSTONE_HANDLE",
-        "ingredients": {}
-    },
-    "BROKEN_RADAR": {
-        "item_id": "BROKEN_RADAR",
-        "ingredients": {}
-    },
-    "BRONZE_BOWL": {
-        "item_id": "BRONZE_BOWL",
-        "ingredients": {}
-    },
-    "BROWN_MUSHROOM": {
-        "item_id": "BROWN_MUSHROOM",
-        "ingredients": {}
-    },
-    "BUBBA_BLISTER": {
-        "item_id": "BUBBA_BLISTER",
-        "ingredients": {}
-    },
     "BUDGET_HOPPER": {
         "item_id": "BUDGET_HOPPER",
         "ingredients": {
             "ENCHANTED_IRON": 5,
             "CHEST": 1
         }
-    },
-    "BULKY_STONE": {
-        "item_id": "BULKY_STONE",
-        "ingredients": {}
-    },
-    "BURNING_EYE": {
-        "item_id": "BURNING_EYE",
-        "ingredients": {}
-    },
-    "BURROWING_SPORES": {
-        "item_id": "BURROWING_SPORES",
-        "ingredients": {}
-    },
-    "BUSTED_BELT_BUCKLE": {
-        "item_id": "BUSTED_BELT_BUCKLE",
-        "ingredients": {}
-    },
-    "CACTUS": {
-        "item_id": "CACTUS",
-        "ingredients": {}
-    },
-    "CALCIFIED_HEART": {
-        "item_id": "CALCIFIED_HEART",
-        "ingredients": {}
-    },
-    "CANDY_CORN": {
-        "item_id": "CANDY_CORN",
-        "ingredients": {}
-    },
-    "CAN_OF_WORMS": {
-        "item_id": "CAN_OF_WORMS",
-        "ingredients": {}
     },
     "CAPSAICIN_EYEDROPS_NO_CHARGES": {
         "item_id": "CAPSAICIN_EYEDROPS_NO_CHARGES",
@@ -299,10 +103,6 @@
             "RAW_FISH": 1
         }
     },
-    "CARROT_ITEM": {
-        "item_id": "CARROT_ITEM",
-        "ingredients": {}
-    },
     "CATALYST": {
         "item_id": "CATALYST",
         "ingredients": {
@@ -310,47 +110,11 @@
             "CRYSTAL_FRAGMENT": 1
         }
     },
-    "CHAIN_END_TIMES": {
-        "item_id": "CHAIN_END_TIMES",
-        "ingredients": {}
-    },
-    "CHEESE_FUEL": {
-        "item_id": "CHEESE_FUEL",
-        "ingredients": {}
-    },
-    "CHILI_PEPPER": {
-        "item_id": "CHILI_PEPPER",
-        "ingredients": {}
-    },
-    "CHOCOLATE_CHIP": {
-        "item_id": "CHOCOLATE_CHIP",
-        "ingredients": {}
-    },
-    "CHUM": {
-        "item_id": "CHUM",
-        "ingredients": {}
-    },
-    "CHYME": {
-        "item_id": "CHYME",
-        "ingredients": {}
-    },
-    "CLAY_BALL": {
-        "item_id": "CLAY_BALL",
-        "ingredients": {}
-    },
-    "CLIPPED_WINGS": {
-        "item_id": "CLIPPED_WINGS",
-        "ingredients": {}
-    },
     "COAL": {
         "item_id": "COAL",
         "ingredients": {
             "COAL_BLOCK": 1
         }
-    },
-    "COBBLESTONE": {
-        "item_id": "COBBLESTONE",
-        "ingredients": {}
     },
     "COLOSSAL_EXP_BOTTLE": {
         "item_id": "COLOSSAL_EXP_BOTTLE",
@@ -366,14 +130,6 @@
             "ENCHANTED_REDSTONE": 1
         }
     },
-    "COMPACT_OOZE": {
-        "item_id": "COMPACT_OOZE",
-        "ingredients": {}
-    },
-    "COMPOST": {
-        "item_id": "COMPOST",
-        "ingredients": {}
-    },
     "CONCENTRATED_STONE": {
         "item_id": "CONCENTRATED_STONE",
         "ingredients": {
@@ -386,28 +142,12 @@
             "FERMENTO": 9
         }
     },
-    "CONTROL_SWITCH": {
-        "item_id": "CONTROL_SWITCH",
-        "ingredients": {}
-    },
-    "CORLEONITE": {
-        "item_id": "CORLEONITE",
-        "ingredients": {}
-    },
     "CORRUPTED_BAIT": {
         "item_id": "CORRUPTED_BAIT",
         "ingredients": {
             "CORRUPTED_FRAGMENT": 1,
             "MAGMA_FISH": 1
         }
-    },
-    "CORRUPTED_FRAGMENT": {
-        "item_id": "CORRUPTED_FRAGMENT",
-        "ingredients": {}
-    },
-    "CORRUPTED_NETHER_STAR": {
-        "item_id": "CORRUPTED_NETHER_STAR",
-        "ingredients": {}
     },
     "CORRUPT_SOIL": {
         "item_id": "CORRUPT_SOIL",
@@ -416,30 +156,6 @@
             "CORRUPTED_FRAGMENT": 20
         }
     },
-    "CROPIE": {
-        "item_id": "CROPIE",
-        "ingredients": {}
-    },
-    "CRUDE_GABAGOOL": {
-        "item_id": "CRUDE_GABAGOOL",
-        "ingredients": {}
-    },
-    "CRUDE_GABAGOOL_DISTILLATE": {
-        "item_id": "CRUDE_GABAGOOL_DISTILLATE",
-        "ingredients": {}
-    },
-    "CRYSTAL_FRAGMENT": {
-        "item_id": "CRYSTAL_FRAGMENT",
-        "ingredients": {}
-    },
-    "CUP_OF_BLOOD": {
-        "item_id": "CUP_OF_BLOOD",
-        "ingredients": {}
-    },
-    "DAEDALUS_STICK": {
-        "item_id": "DAEDALUS_STICK",
-        "ingredients": {}
-    },
     "DARK_BAIT": {
         "item_id": "DARK_BAIT",
         "ingredients": {
@@ -447,35 +163,11 @@
             "RAW_FISH": 1
         }
     },
-    "DARK_CANDY": {
-        "item_id": "DARK_CANDY",
-        "ingredients": {}
-    },
-    "DARK_ORB": {
-        "item_id": "DARK_ORB",
-        "ingredients": {}
-    },
-    "DARK_QUEENS_SOUL_DROP": {
-        "item_id": "DARK_QUEENS_SOUL_DROP",
-        "ingredients": {}
-    },
-    "DEEP_SEA_ORB": {
-        "item_id": "DEEP_SEA_ORB",
-        "ingredients": {}
-    },
-    "DERELICT_ASHE": {
-        "item_id": "DERELICT_ASHE",
-        "ingredients": {}
-    },
     "DIAMOND": {
         "item_id": "DIAMOND",
         "ingredients": {
             "DIAMOND_BLOCK": 1
         }
-    },
-    "DIAMOND_ATOM": {
-        "item_id": "DIAMOND_ATOM",
-        "ingredients": {}
     },
     "DIAMOND_SPREADING": {
         "item_id": "DIAMOND_SPREADING",
@@ -483,66 +175,6 @@
             "VINE": 8,
             "ENCHANTED_DIAMOND": 1
         }
-    },
-    "DIAMONITE": {
-        "item_id": "DIAMONITE",
-        "ingredients": {}
-    },
-    "DIGESTED_MUSHROOMS": {
-        "item_id": "DIGESTED_MUSHROOMS",
-        "ingredients": {}
-    },
-    "DIRT_BOTTLE": {
-        "item_id": "DIRT_BOTTLE",
-        "ingredients": {}
-    },
-    "DISPLACED_LEECH": {
-        "item_id": "DISPLACED_LEECH",
-        "ingredients": {}
-    },
-    "DIVAN_FRAGMENT": {
-        "item_id": "DIVAN_FRAGMENT",
-        "ingredients": {}
-    },
-    "DIVAN_POWDER_COATING": {
-        "item_id": "DIVAN_POWDER_COATING",
-        "ingredients": {}
-    },
-    "DIVER_FRAGMENT": {
-        "item_id": "DIVER_FRAGMENT",
-        "ingredients": {}
-    },
-    "DRAGON_CLAW": {
-        "item_id": "DRAGON_CLAW",
-        "ingredients": {}
-    },
-    "DRAGON_HORN": {
-        "item_id": "DRAGON_HORN",
-        "ingredients": {}
-    },
-    "DRAGON_SCALE": {
-        "item_id": "DRAGON_SCALE",
-        "ingredients": {}
-    },
-    "DRILL_ENGINE": {
-        "item_id": "DRILL_ENGINE",
-        "ingredients": {}
-    },
-    "DUNG": {
-        "item_id": "DUNG",
-        "ingredients": {}
-    },
-    "DUNGEON_CHEST_KEY": {
-        "item_id": "DUNGEON_CHEST_KEY",
-        "ingredients": {}
-    },
-    "DUNGEON_DECOY": {
-        "item_id": "DUNGEON_DECOY",
-        "ingredients": {}
-    },
-    "DUNGEON_TRAP": {
-        "item_id": "DUNGEON_TRAP",
-        "ingredients": {}
     },
     "DWARVEN_COMPACTOR": {
         "item_id": "DWARVEN_COMPACTOR",
@@ -552,51 +184,11 @@
             "SUPER_COMPACTOR_3000": 1
         }
     },
-    "DWARVEN_OS_BLOCK_BRAN": {
-        "item_id": "DWARVEN_OS_BLOCK_BRAN",
-        "ingredients": {}
-    },
-    "DWARVEN_OS_GEMSTONE_GRAHAMS": {
-        "item_id": "DWARVEN_OS_GEMSTONE_GRAHAMS",
-        "ingredients": {}
-    },
-    "DWARVEN_OS_METALLIC_MINIS": {
-        "item_id": "DWARVEN_OS_METALLIC_MINIS",
-        "ingredients": {}
-    },
-    "DWARVEN_OS_ORE_OATS": {
-        "item_id": "DWARVEN_OS_ORE_OATS",
-        "ingredients": {}
-    },
-    "DWARVEN_TREASURE": {
-        "item_id": "DWARVEN_TREASURE",
-        "ingredients": {}
-    },
-    "ECCENTRIC_PAINTING": {
-        "item_id": "ECCENTRIC_PAINTING",
-        "ingredients": {}
-    },
-    "ECTOPLASM": {
-        "item_id": "ECTOPLASM",
-        "ingredients": {}
-    },
-    "EGG": {
-        "item_id": "EGG",
-        "ingredients": {}
-    },
-    "ELECTRON_TRANSMITTER": {
-        "item_id": "ELECTRON_TRANSMITTER",
-        "ingredients": {}
-    },
     "EMERALD": {
         "item_id": "EMERALD",
         "ingredients": {
             "EMERALD_BLOCK": 1
         }
-    },
-    "EMPTY_CHUM_BUCKET": {
-        "item_id": "EMPTY_CHUM_BUCKET",
-        "ingredients": {}
     },
     "ENCHANTED_ACACIA_LOG": {
         "item_id": "ENCHANTED_ACACIA_LOG",
@@ -645,10 +237,6 @@
         "ingredients": {
             "ENCHANTED_BONE": 160
         }
-    },
-    "ENCHANTED_BONE_MEAL": {
-        "item_id": "ENCHANTED_BONE_MEAL",
-        "ingredients": {}
     },
     "ENCHANTED_BREAD": {
         "item_id": "ENCHANTED_BREAD",
@@ -721,10 +309,6 @@
             "RAW_FISH-2": 160
         }
     },
-    "ENCHANTED_COAL": {
-        "item_id": "ENCHANTED_COAL",
-        "ingredients": {}
-    },
     "ENCHANTED_COAL_BLOCK": {
         "item_id": "ENCHANTED_COAL_BLOCK",
         "ingredients": {
@@ -786,10 +370,6 @@
             "LOG_2-1": 160
         }
     },
-    "ENCHANTED_DIAMOND": {
-        "item_id": "ENCHANTED_DIAMOND",
-        "ingredients": {}
-    },
     "ENCHANTED_DIAMOND_BLOCK": {
         "item_id": "ENCHANTED_DIAMOND_BLOCK",
         "ingredients": {
@@ -801,10 +381,6 @@
         "ingredients": {
             "EGG": 144
         }
-    },
-    "ENCHANTED_EMERALD": {
-        "item_id": "ENCHANTED_EMERALD",
-        "ingredients": {}
     },
     "ENCHANTED_EMERALD_BLOCK": {
         "item_id": "ENCHANTED_EMERALD_BLOCK",
@@ -888,10 +464,6 @@
             "GLOWSTONE_DUST": 160
         }
     },
-    "ENCHANTED_GOLD": {
-        "item_id": "ENCHANTED_GOLD",
-        "ingredients": {}
-    },
     "ENCHANTED_GOLDEN_CARROT": {
         "item_id": "ENCHANTED_GOLDEN_CARROT",
         "ingredients": {
@@ -929,10 +501,6 @@
             "ENCHANTED_WHEAT": 160
         }
     },
-    "ENCHANTED_HAY_BLOCK": {
-        "item_id": "ENCHANTED_HAY_BLOCK",
-        "ingredients": {}
-    },
     "ENCHANTED_HOPPER": {
         "item_id": "ENCHANTED_HOPPER",
         "ingredients": {
@@ -964,10 +532,6 @@
             "INK_SACK": 80
         }
     },
-    "ENCHANTED_IRON": {
-        "item_id": "ENCHANTED_IRON",
-        "ingredients": {}
-    },
     "ENCHANTED_IRON_BLOCK": {
         "item_id": "ENCHANTED_IRON_BLOCK",
         "ingredients": {
@@ -979,10 +543,6 @@
         "ingredients": {
             "LOG-3": 160
         }
-    },
-    "ENCHANTED_LAPIS_LAZULI": {
-        "item_id": "ENCHANTED_LAPIS_LAZULI",
-        "ingredients": {}
     },
     "ENCHANTED_LAPIS_LAZULI_BLOCK": {
         "item_id": "ENCHANTED_LAPIS_LAZULI_BLOCK",
@@ -1189,10 +749,6 @@
             "RAW_FISH-1": 160
         }
     },
-    "ENCHANTED_REDSTONE": {
-        "item_id": "ENCHANTED_REDSTONE",
-        "ingredients": {}
-    },
     "ENCHANTED_REDSTONE_BLOCK": {
         "item_id": "ENCHANTED_REDSTONE_BLOCK",
         "ingredients": {
@@ -1356,30 +912,6 @@
             "WOOL": 160
         }
     },
-    "ENDERMAN_CORTEX_REWRITER": {
-        "item_id": "ENDERMAN_CORTEX_REWRITER",
-        "ingredients": {}
-    },
-    "ENDER_MONOCLE": {
-        "item_id": "ENDER_MONOCLE",
-        "ingredients": {}
-    },
-    "ENDER_PEARL": {
-        "item_id": "ENDER_PEARL",
-        "ingredients": {}
-    },
-    "ENDER_STONE": {
-        "item_id": "ENDER_STONE",
-        "ingredients": {}
-    },
-    "ENDSTONE_GEODE": {
-        "item_id": "ENDSTONE_GEODE",
-        "ingredients": {}
-    },
-    "END_STONE_SHULKER": {
-        "item_id": "END_STONE_SHULKER",
-        "ingredients": {}
-    },
     "ENTROPY_SUPPRESSOR": {
         "item_id": "ENTROPY_SUPPRESSOR",
         "ingredients": {
@@ -1387,42 +919,6 @@
             "HEAVY_GABAGOOL": 16,
             "KELVIN_INVERTER": 4
         }
-    },
-    "ESSENCE_CRIMSON": {
-        "item_id": "ESSENCE_CRIMSON",
-        "ingredients": {}
-    },
-    "ESSENCE_DIAMOND": {
-        "item_id": "ESSENCE_DIAMOND",
-        "ingredients": {}
-    },
-    "ESSENCE_DRAGON": {
-        "item_id": "ESSENCE_DRAGON",
-        "ingredients": {}
-    },
-    "ESSENCE_GOLD": {
-        "item_id": "ESSENCE_GOLD",
-        "ingredients": {}
-    },
-    "ESSENCE_ICE": {
-        "item_id": "ESSENCE_ICE",
-        "ingredients": {}
-    },
-    "ESSENCE_SPIDER": {
-        "item_id": "ESSENCE_SPIDER",
-        "ingredients": {}
-    },
-    "ESSENCE_UNDEAD": {
-        "item_id": "ESSENCE_UNDEAD",
-        "ingredients": {}
-    },
-    "ESSENCE_WITHER": {
-        "item_id": "ESSENCE_WITHER",
-        "ingredients": {}
-    },
-    "EXPIRED_PUMPKIN": {
-        "item_id": "EXPIRED_PUMPKIN",
-        "ingredients": {}
     },
     "EXPORTABLE_CARROTS": {
         "item_id": "EXPORTABLE_CARROTS",
@@ -1438,30 +934,6 @@
             "INK_SACK-4": 6,
             "GLASS_BOTTLE": 1
         }
-    },
-    "FAKE_SHURIKEN": {
-        "item_id": "FAKE_SHURIKEN",
-        "ingredients": {}
-    },
-    "FARMING_FOR_DUMMIES": {
-        "item_id": "FARMING_FOR_DUMMIES",
-        "ingredients": {}
-    },
-    "FEATHER": {
-        "item_id": "FEATHER",
-        "ingredients": {}
-    },
-    "FEL_PEARL": {
-        "item_id": "FEL_PEARL",
-        "ingredients": {}
-    },
-    "FERMENTO": {
-        "item_id": "FERMENTO",
-        "ingredients": {}
-    },
-    "FIFTH_MASTER_STAR": {
-        "item_id": "FIFTH_MASTER_STAR",
-        "ingredients": {}
     },
     "FINE_AMBER_GEM": {
         "item_id": "FINE_AMBER_GEM",
@@ -1486,10 +958,6 @@
         "ingredients": {
             "FLAWED_CITRINE_GEM": 80
         }
-    },
-    "FINE_FLOUR": {
-        "item_id": "FINE_FLOUR",
-        "ingredients": {}
     },
     "FINE_JADE_GEM": {
         "item_id": "FINE_JADE_GEM",
@@ -1539,24 +1007,12 @@
             "FLAWED_TOPAZ_GEM": 80
         }
     },
-    "FIRST_MASTER_STAR": {
-        "item_id": "FIRST_MASTER_STAR",
-        "ingredients": {}
-    },
     "FISH_BAIT": {
         "item_id": "FISH_BAIT",
         "ingredients": {
             "RAW_FISH-1": 1,
             "RAW_FISH": 2
         }
-    },
-    "FLAMES": {
-        "item_id": "FLAMES",
-        "ingredients": {}
-    },
-    "FLAMING_HEART": {
-        "item_id": "FLAMING_HEART",
-        "ingredients": {}
     },
     "FLAWED_AMBER_GEM": {
         "item_id": "FLAWED_AMBER_GEM",
@@ -1702,68 +1158,12 @@
             "FINE_TOPAZ_GEM": 80
         }
     },
-    "FLINT": {
-        "item_id": "FLINT",
-        "ingredients": {}
-    },
-    "FLOWERING_BOUQUET": {
-        "item_id": "FLOWERING_BOUQUET",
-        "ingredients": {}
-    },
     "FLYCATCHER_UPGRADE": {
         "item_id": "FLYCATCHER_UPGRADE",
         "ingredients": {
             "TARANTULA_SILK": 102,
             "FLY_SWATTER": 1
         }
-    },
-    "FLY_SWATTER": {
-        "item_id": "FLY_SWATTER",
-        "ingredients": {}
-    },
-    "FOUL_FLESH": {
-        "item_id": "FOUL_FLESH",
-        "ingredients": {}
-    },
-    "FOURTH_MASTER_STAR": {
-        "item_id": "FOURTH_MASTER_STAR",
-        "ingredients": {}
-    },
-    "FREE_WILL": {
-        "item_id": "FREE_WILL",
-        "ingredients": {}
-    },
-    "FRESHLY_MINTED_COINS": {
-        "item_id": "FRESHLY_MINTED_COINS",
-        "ingredients": {}
-    },
-    "FRIED_FEATHER": {
-        "item_id": "FRIED_FEATHER",
-        "ingredients": {}
-    },
-    "FRIGID_HUSK": {
-        "item_id": "FRIGID_HUSK",
-        "ingredients": {}
-    },
-    "FROZEN_BAIT": {
-        "item_id": "FROZEN_BAIT",
-        "ingredients": {}
-    },
-    "FROZEN_BAUBLE": {
-        "item_id": "FROZEN_BAUBLE",
-        "ingredients": {}
-    },
-    "FTX_3070": {
-        "item_id": "FTX_3070",
-        "ingredients": {}
-    },
-    "FUEL_GABAGOOL": {
-        "item_id": "FUEL_GABAGOOL",
-        "ingredients": {}
-    },
-    "FUEL_TANK": {
-        "item_id": "FUEL_TANK",
-        "ingredients": {}
     },
     "FULL_CHUM_BUCKET": {
         "item_id": "FULL_CHUM_BUCKET",
@@ -1772,150 +1172,6 @@
             "EMPTY_CHUM_BUCKET": 1
         }
     },
-    "FULL_JAW_FANGING_KIT": {
-        "item_id": "FULL_JAW_FANGING_KIT",
-        "ingredients": {}
-    },
-    "FUMING_POTATO_BOOK": {
-        "item_id": "FUMING_POTATO_BOOK",
-        "ingredients": {}
-    },
-    "FURBALL": {
-        "item_id": "FURBALL",
-        "ingredients": {}
-    },
-    "GAZING_PEARL": {
-        "item_id": "GAZING_PEARL",
-        "ingredients": {}
-    },
-    "GEMSTONE_MIXTURE": {
-        "item_id": "GEMSTONE_MIXTURE",
-        "ingredients": {}
-    },
-    "GENERATOR_UPGRADE_STONE_CLAY_12": {
-        "item_id": "GENERATOR_UPGRADE_STONE_CLAY_12",
-        "ingredients": {}
-    },
-    "GENERATOR_UPGRADE_STONE_FISHING_12": {
-        "item_id": "GENERATOR_UPGRADE_STONE_FISHING_12",
-        "ingredients": {}
-    },
-    "GHAST_TEAR": {
-        "item_id": "GHAST_TEAR",
-        "ingredients": {}
-    },
-    "GIANT_BOUNCY_BEACH_BALL": {
-        "item_id": "GIANT_BOUNCY_BEACH_BALL",
-        "ingredients": {}
-    },
-    "GIANT_FRAGMENT_BIGFOOT": {
-        "item_id": "GIANT_FRAGMENT_BIGFOOT",
-        "ingredients": {}
-    },
-    "GIANT_FRAGMENT_BOULDER": {
-        "item_id": "GIANT_FRAGMENT_BOULDER",
-        "ingredients": {}
-    },
-    "GIANT_FRAGMENT_DIAMOND": {
-        "item_id": "GIANT_FRAGMENT_DIAMOND",
-        "ingredients": {}
-    },
-    "GIANT_FRAGMENT_LASER": {
-        "item_id": "GIANT_FRAGMENT_LASER",
-        "ingredients": {}
-    },
-    "GIANT_TOOTH": {
-        "item_id": "GIANT_TOOTH",
-        "ingredients": {}
-    },
-    "GLACIAL_FRAGMENT": {
-        "item_id": "GLACIAL_FRAGMENT",
-        "ingredients": {}
-    },
-    "GLACITE": {
-        "item_id": "GLACITE",
-        "ingredients": {}
-    },
-    "GLACITE_AMALGAMATION": {
-        "item_id": "GLACITE_AMALGAMATION",
-        "ingredients": {}
-    },
-    "GLACITE_JEWEL": {
-        "item_id": "GLACITE_JEWEL",
-        "ingredients": {}
-    },
-    "GLACITE_SHARD": {
-        "item_id": "GLACITE_SHARD",
-        "ingredients": {}
-    },
-    "GLEAMING_CRYSTAL": {
-        "item_id": "GLEAMING_CRYSTAL",
-        "ingredients": {}
-    },
-    "GLOSSY_GEMSTONE": {
-        "item_id": "GLOSSY_GEMSTONE",
-        "ingredients": {}
-    },
-    "GLOWING_MUSHROOM": {
-        "item_id": "GLOWING_MUSHROOM",
-        "ingredients": {}
-    },
-    "GLOWSTONE_DUST": {
-        "item_id": "GLOWSTONE_DUST",
-        "ingredients": {}
-    },
-    "GLOWSTONE_DUST_DISTILLATE": {
-        "item_id": "GLOWSTONE_DUST_DISTILLATE",
-        "ingredients": {}
-    },
-    "GLOWY_CHUM_BAIT": {
-        "item_id": "GLOWY_CHUM_BAIT",
-        "ingredients": {}
-    },
-    "GOBLIN_EGG": {
-        "item_id": "GOBLIN_EGG",
-        "ingredients": {}
-    },
-    "GOBLIN_EGG_BLUE": {
-        "item_id": "GOBLIN_EGG_BLUE",
-        "ingredients": {}
-    },
-    "GOBLIN_EGG_GREEN": {
-        "item_id": "GOBLIN_EGG_GREEN",
-        "ingredients": {}
-    },
-    "GOBLIN_EGG_RED": {
-        "item_id": "GOBLIN_EGG_RED",
-        "ingredients": {}
-    },
-    "GOBLIN_EGG_YELLOW": {
-        "item_id": "GOBLIN_EGG_YELLOW",
-        "ingredients": {}
-    },
-    "GOLDEN_BAIT": {
-        "item_id": "GOLDEN_BAIT",
-        "ingredients": {}
-    },
-    "GOLDEN_BALL": {
-        "item_id": "GOLDEN_BALL",
-        "ingredients": {}
-    },
-    "GOLDEN_BOUNTY": {
-        "item_id": "GOLDEN_BOUNTY",
-        "ingredients": {}
-    },
-    "GOLDEN_FRAGMENT": {
-        "item_id": "GOLDEN_FRAGMENT",
-        "ingredients": {}
-    },
-    "GOLDEN_PLATE": {
-        "item_id": "GOLDEN_PLATE",
-        "ingredients": {}
-    },
-    "GOLDEN_POWDER": {
-        "item_id": "GOLDEN_POWDER",
-        "ingredients": {}
-    },
     "GOLDEN_TOOTH": {
         "item_id": "GOLDEN_TOOTH",
         "ingredients": {
@@ -1923,19 +1179,11 @@
             "ENCHANTED_GOLD": 32
         }
     },
-    "GOLD_BOTTLE_CAP": {
-        "item_id": "GOLD_BOTTLE_CAP",
-        "ingredients": {}
-    },
     "GOLD_INGOT": {
         "item_id": "GOLD_INGOT",
         "ingredients": {
             "GOLD_BLOCK": 1
         }
-    },
-    "GOLEM_POPPY": {
-        "item_id": "GOLEM_POPPY",
-        "ingredients": {}
     },
     "GRAND_EXP_BOTTLE": {
         "item_id": "GRAND_EXP_BOTTLE",
@@ -1944,20 +1192,12 @@
             "GLASS_BOTTLE": 1
         }
     },
-    "GRAVEL": {
-        "item_id": "GRAVEL",
-        "ingredients": {}
-    },
     "GREAT_CARROT_CANDY": {
         "item_id": "GREAT_CARROT_CANDY",
         "ingredients": {
             "ENCHANTED_CARROT": 320,
             "SIMPLE_CARROT_CANDY": 1
         }
-    },
-    "GREAT_WHITE_SHARK_TOOTH": {
-        "item_id": "GREAT_WHITE_SHARK_TOOTH",
-        "ingredients": {}
     },
     "GREAT_WHITE_TOOTH_MEAL": {
         "item_id": "GREAT_WHITE_TOOTH_MEAL",
@@ -1966,55 +1206,11 @@
             "ENCHANTED_BONE": 1
         }
     },
-    "GREEN_CANDY": {
-        "item_id": "GREEN_CANDY",
-        "ingredients": {}
-    },
-    "GREEN_GIFT": {
-        "item_id": "GREEN_GIFT",
-        "ingredients": {}
-    },
-    "GRIFFIN_FEATHER": {
-        "item_id": "GRIFFIN_FEATHER",
-        "ingredients": {}
-    },
-    "GUARDIAN_LUCKY_BLOCK": {
-        "item_id": "GUARDIAN_LUCKY_BLOCK",
-        "ingredients": {}
-    },
-    "HALF_EATEN_MUSHROOM": {
-        "item_id": "HALF_EATEN_MUSHROOM",
-        "ingredients": {}
-    },
-    "HALLOWED_SKULL": {
-        "item_id": "HALLOWED_SKULL",
-        "ingredients": {}
-    },
-    "HAMSTER_WHEEL": {
-        "item_id": "HAMSTER_WHEEL",
-        "ingredients": {}
-    },
-    "HARDENED_WOOD": {
-        "item_id": "HARDENED_WOOD",
-        "ingredients": {}
-    },
-    "HARD_STONE": {
-        "item_id": "HARD_STONE",
-        "ingredients": {}
-    },
     "HAY_BLOCK": {
         "item_id": "HAY_BLOCK",
         "ingredients": {
             "WHEAT": 9
         }
-    },
-    "HAZMAT_ENDERMAN": {
-        "item_id": "HAZMAT_ENDERMAN",
-        "ingredients": {}
-    },
-    "HEALING_TISSUE": {
-        "item_id": "HEALING_TISSUE",
-        "ingredients": {}
     },
     "HEAVY_GABAGOOL": {
         "item_id": "HEAVY_GABAGOOL",
@@ -2022,10 +1218,6 @@
             "FUEL_GABAGOOL": 24,
             "SULPHURIC_COAL": 1
         }
-    },
-    "HEAVY_PEARL": {
-        "item_id": "HEAVY_PEARL",
-        "ingredients": {}
     },
     "HEMOBOMB": {
         "item_id": "HEMOBOMB",
@@ -2039,10 +1231,6 @@
             "HEMOVIBE": 160
         }
     },
-    "HEMOVIBE": {
-        "item_id": "HEMOVIBE",
-        "ingredients": {}
-    },
     "HIGHLITE": {
         "item_id": "HIGHLITE",
         "ingredients": {
@@ -2051,28 +1239,12 @@
             "OBSOLITE": 16
         }
     },
-    "HOLY_FRAGMENT": {
-        "item_id": "HOLY_FRAGMENT",
-        "ingredients": {}
-    },
-    "HONEY_JAR": {
-        "item_id": "HONEY_JAR",
-        "ingredients": {}
-    },
     "HORNS_OF_TORMENT": {
         "item_id": "HORNS_OF_TORMENT",
         "ingredients": {
             "ENCHANTED_MUTTON": 192,
             "HORN_OF_TAURUS": 32
         }
-    },
-    "HORN_OF_TAURUS": {
-        "item_id": "HORN_OF_TAURUS",
-        "ingredients": {}
-    },
-    "HORSEMAN_CANDLE": {
-        "item_id": "HORSEMAN_CANDLE",
-        "ingredients": {}
     },
     "HOTSPOT_BAIT": {
         "item_id": "HOTSPOT_BAIT",
@@ -2109,10 +1281,6 @@
             "ENCHANTED_BAKED_POTATO": 1
         }
     },
-    "HOT_STUFF": {
-        "item_id": "HOT_STUFF",
-        "ingredients": {}
-    },
     "HUGE_MUSHROOM_1": {
         "item_id": "HUGE_MUSHROOM_1",
         "ingredients": {
@@ -2132,10 +1300,6 @@
             "SULPHURIC_COAL": 1
         }
     },
-    "HYPERGOLIC_IONIZED_CERAMICS": {
-        "item_id": "HYPERGOLIC_IONIZED_CERAMICS",
-        "ingredients": {}
-    },
     "HYPER_CATALYST": {
         "item_id": "HYPER_CATALYST",
         "ingredients": {
@@ -2143,24 +1307,12 @@
             "HYPER_CATALYST_UPGRADE": 1
         }
     },
-    "ICE": {
-        "item_id": "ICE",
-        "ingredients": {}
-    },
     "ICE_BAIT": {
         "item_id": "ICE_BAIT",
         "ingredients": {
             "ICE": 1,
             "RAW_FISH": 1
         }
-    },
-    "ICE_HUNK": {
-        "item_id": "ICE_HUNK",
-        "ingredients": {}
-    },
-    "IMPLOSION_SCROLL": {
-        "item_id": "IMPLOSION_SCROLL",
-        "ingredients": {}
     },
     "INFERNO_APEX": {
         "item_id": "INFERNO_APEX",
@@ -2170,10 +1322,6 @@
             "HYPERGOLIC_IONIZED_CERAMICS": 16
         }
     },
-    "INFERNO_FUEL_BLOCK": {
-        "item_id": "INFERNO_FUEL_BLOCK",
-        "ingredients": {}
-    },
     "INFERNO_VERTEX": {
         "item_id": "INFERNO_VERTEX",
         "ingredients": {
@@ -2181,27 +1329,11 @@
             "HYPERGOLIC_IONIZED_CERAMICS": 6
         }
     },
-    "INFLATABLE_JERRY": {
-        "item_id": "INFLATABLE_JERRY",
-        "ingredients": {}
-    },
-    "INK_SACK": {
-        "item_id": "INK_SACK",
-        "ingredients": {}
-    },
     "IRON_INGOT": {
         "item_id": "IRON_INGOT",
         "ingredients": {
             "IRON_BLOCK": 1
         }
-    },
-    "JACOBS_TICKET": {
-        "item_id": "JACOBS_TICKET",
-        "ingredients": {}
-    },
-    "JADERALD": {
-        "item_id": "JADERALD",
-        "ingredients": {}
     },
     "JALAPENO_BOOK": {
         "item_id": "JALAPENO_BOOK",
@@ -2210,72 +1342,12 @@
             "STUFFED_CHILI_PEPPER": 1
         }
     },
-    "JERRY_BOX_BLUE": {
-        "item_id": "JERRY_BOX_BLUE",
-        "ingredients": {}
-    },
-    "JERRY_BOX_GOLDEN": {
-        "item_id": "JERRY_BOX_GOLDEN",
-        "ingredients": {}
-    },
-    "JERRY_BOX_GREEN": {
-        "item_id": "JERRY_BOX_GREEN",
-        "ingredients": {}
-    },
-    "JERRY_BOX_PURPLE": {
-        "item_id": "JERRY_BOX_PURPLE",
-        "ingredients": {}
-    },
-    "JERRY_STONE": {
-        "item_id": "JERRY_STONE",
-        "ingredients": {}
-    },
-    "JUNGLE_HEART": {
-        "item_id": "JUNGLE_HEART",
-        "ingredients": {}
-    },
-    "JUNGLE_KEY": {
-        "item_id": "JUNGLE_KEY",
-        "ingredients": {}
-    },
-    "KADA_LEAD": {
-        "item_id": "KADA_LEAD",
-        "ingredients": {}
-    },
-    "KELVIN_INVERTER": {
-        "item_id": "KELVIN_INVERTER",
-        "ingredients": {}
-    },
-    "KISMET_FEATHER": {
-        "item_id": "KISMET_FEATHER",
-        "ingredients": {}
-    },
-    "KUUDRA_MANDIBLE": {
-        "item_id": "KUUDRA_MANDIBLE",
-        "ingredients": {}
-    },
-    "KUUDRA_TEETH": {
-        "item_id": "KUUDRA_TEETH",
-        "ingredients": {}
-    },
-    "LAPIS_CRYSTAL": {
-        "item_id": "LAPIS_CRYSTAL",
-        "ingredients": {}
-    },
     "LARGE_ENCHANTED_CHEST": {
         "item_id": "LARGE_ENCHANTED_CHEST",
         "ingredients": {
             "ENCHANTED_OAK_LOG": 256,
             "MEDIUM_ENCHANTED_CHEST": 1
         }
-    },
-    "LARGE_WALNUT": {
-        "item_id": "LARGE_WALNUT",
-        "ingredients": {}
-    },
-    "LAVA_SHELL": {
-        "item_id": "LAVA_SHELL",
-        "ingredients": {}
     },
     "LAVA_WATER_ORB": {
         "item_id": "LAVA_WATER_ORB",
@@ -2296,10 +1368,6 @@
             "RABBIT_HIDE": 4
         }
     },
-    "LEATHER_CLOTH": {
-        "item_id": "LEATHER_CLOTH",
-        "ingredients": {}
-    },
     "LESSER_SOULFLOW_ENGINE": {
         "item_id": "LESSER_SOULFLOW_ENGINE",
         "ingredients": {
@@ -2315,38 +1383,6 @@
             "RAW_FISH": 1
         }
     },
-    "LIVID_FRAGMENT": {
-        "item_id": "LIVID_FRAGMENT",
-        "ingredients": {}
-    },
-    "LOG": {
-        "item_id": "LOG",
-        "ingredients": {}
-    },
-    "LOG_2": {
-        "item_id": "LOG_2",
-        "ingredients": {}
-    },
-    "LUCKY_DICE": {
-        "item_id": "LUCKY_DICE",
-        "ingredients": {}
-    },
-    "LUMINO_FIBER": {
-        "item_id": "LUMINO_FIBER",
-        "ingredients": {}
-    },
-    "LUMP_OF_MAGMA": {
-        "item_id": "LUMP_OF_MAGMA",
-        "ingredients": {}
-    },
-    "LUSH_BERBERIS": {
-        "item_id": "LUSH_BERBERIS",
-        "ingredients": {}
-    },
-    "LUXURIOUS_SPOOL": {
-        "item_id": "LUXURIOUS_SPOOL",
-        "ingredients": {}
-    },
     "MAGIC_MUSHROOM_SOUP": {
         "item_id": "MAGIC_MUSHROOM_SOUP",
         "ingredients": {
@@ -2357,14 +1393,6 @@
             "BOWL": 1
         }
     },
-    "MAGIC_TOP_HAT": {
-        "item_id": "MAGIC_TOP_HAT",
-        "ingredients": {}
-    },
-    "MAGMAG": {
-        "item_id": "MAGMAG",
-        "ingredients": {}
-    },
     "MAGMA_BUCKET": {
         "item_id": "MAGMA_BUCKET",
         "ingredients": {
@@ -2372,28 +1400,12 @@
             "HEAT_CORE": 1
         }
     },
-    "MAGMA_CHUNK": {
-        "item_id": "MAGMA_CHUNK",
-        "ingredients": {}
-    },
-    "MAGMA_CORE": {
-        "item_id": "MAGMA_CORE",
-        "ingredients": {}
-    },
     "MAGMA_CREAM": {
         "item_id": "MAGMA_CREAM",
         "ingredients": {
             "BLAZE_POWDER": 1,
             "SLIME_BALL": 1
         }
-    },
-    "MAGMA_CREAM_DISTILLATE": {
-        "item_id": "MAGMA_CREAM_DISTILLATE",
-        "ingredients": {}
-    },
-    "MAGMA_FISH": {
-        "item_id": "MAGMA_FISH",
-        "ingredients": {}
     },
     "MAGMA_FISH_DIAMOND": {
         "item_id": "MAGMA_FISH_DIAMOND",
@@ -2413,22 +1425,6 @@
             "MAGMA_FISH": 80
         }
     },
-    "MAGMA_LORD_FRAGMENT": {
-        "item_id": "MAGMA_LORD_FRAGMENT",
-        "ingredients": {}
-    },
-    "MAGMA_URCHIN": {
-        "item_id": "MAGMA_URCHIN",
-        "ingredients": {}
-    },
-    "MANA_DISINTEGRATOR": {
-        "item_id": "MANA_DISINTEGRATOR",
-        "ingredients": {}
-    },
-    "MANDRAA": {
-        "item_id": "MANDRAA",
-        "ingredients": {}
-    },
     "MATCH_STICKS": {
         "item_id": "MATCH_STICKS",
         "ingredients": {
@@ -2443,19 +1439,11 @@
             "SMALL_ENCHANTED_CHEST": 1
         }
     },
-    "MELON": {
-        "item_id": "MELON",
-        "ingredients": {}
-    },
     "MELON_BLOCK": {
         "item_id": "MELON_BLOCK",
         "ingredients": {
             "MELON": 9
         }
-    },
-    "METAPHYSICAL_SERUM": {
-        "item_id": "METAPHYSICAL_SERUM",
-        "ingredients": {}
     },
     "METEOR_SHARD": {
         "item_id": "METEOR_SHARD",
@@ -2464,18 +1452,6 @@
             "STARFALL": 20,
             "TENTACLE_MEAT": 10
         }
-    },
-    "MIDAS_JEWEL": {
-        "item_id": "MIDAS_JEWEL",
-        "ingredients": {}
-    },
-    "MILLENIA_OLD_BLAZE_ASHES": {
-        "item_id": "MILLENIA_OLD_BLAZE_ASHES",
-        "ingredients": {}
-    },
-    "MIMIC_FRAGMENT": {
-        "item_id": "MIMIC_FRAGMENT",
-        "ingredients": {}
     },
     "MINION_EXPANDER": {
         "item_id": "MINION_EXPANDER",
@@ -2490,10 +1466,6 @@
             "RAW_FISH": 2
         }
     },
-    "MITE_GEL": {
-        "item_id": "MITE_GEL",
-        "ingredients": {}
-    },
     "MITHRIL_INFUSION": {
         "item_id": "MITHRIL_INFUSION",
         "ingredients": {
@@ -2501,31 +1473,11 @@
             "MAGMA_BUCKET": 1
         }
     },
-    "MITHRIL_ORE": {
-        "item_id": "MITHRIL_ORE",
-        "ingredients": {}
-    },
-    "MITHRIL_PLATE": {
-        "item_id": "MITHRIL_PLATE",
-        "ingredients": {}
-    },
     "MIXED_MITE_GEL": {
         "item_id": "MIXED_MITE_GEL",
         "ingredients": {
             "MITE_GEL": 160
         }
-    },
-    "MOBY_DUCK_COLLECTOR_EDITION": {
-        "item_id": "MOBY_DUCK_COLLECTOR_EDITION",
-        "ingredients": {}
-    },
-    "MOIL_LOG": {
-        "item_id": "MOIL_LOG",
-        "ingredients": {}
-    },
-    "MOLTEN_CUBE": {
-        "item_id": "MOLTEN_CUBE",
-        "ingredients": {}
     },
     "MOLTEN_POWDER": {
         "item_id": "MOLTEN_POWDER",
@@ -2534,47 +1486,11 @@
             "AMALGAMATED_CRIMSONITE_NEW": 1
         }
     },
-    "MOOGMA_PELT": {
-        "item_id": "MOOGMA_PELT",
-        "ingredients": {}
-    },
     "MUTANT_NETHER_STALK": {
         "item_id": "MUTANT_NETHER_STALK",
         "ingredients": {
             "ENCHANTED_NETHER_STALK": 160
         }
-    },
-    "MUTATED_BLAZE_ASHES": {
-        "item_id": "MUTATED_BLAZE_ASHES",
-        "ingredients": {}
-    },
-    "MUTTON": {
-        "item_id": "MUTTON",
-        "ingredients": {}
-    },
-    "MYCEL": {
-        "item_id": "MYCEL",
-        "ingredients": {}
-    },
-    "NECROMANCER_BROOCH": {
-        "item_id": "NECROMANCER_BROOCH",
-        "ingredients": {}
-    },
-    "NETHERRACK": {
-        "item_id": "NETHERRACK",
-        "ingredients": {}
-    },
-    "NETHER_STALK": {
-        "item_id": "NETHER_STALK",
-        "ingredients": {}
-    },
-    "NETHER_STALK_DISTILLATE": {
-        "item_id": "NETHER_STALK_DISTILLATE",
-        "ingredients": {}
-    },
-    "NULL_ATOM": {
-        "item_id": "NULL_ATOM",
-        "ingredients": {}
     },
     "NULL_BLADE": {
         "item_id": "NULL_BLADE",
@@ -2598,18 +1514,6 @@
             "ENCHANTED_OBSIDIAN": 32
         }
     },
-    "NULL_SPHERE": {
-        "item_id": "NULL_SPHERE",
-        "ingredients": {}
-    },
-    "NURSE_SHARK_TOOTH": {
-        "item_id": "NURSE_SHARK_TOOTH",
-        "ingredients": {}
-    },
-    "OBSIDIAN": {
-        "item_id": "OBSIDIAN",
-        "ingredients": {}
-    },
     "OBSIDIAN_TABLET": {
         "item_id": "OBSIDIAN_TABLET",
         "ingredients": {
@@ -2617,47 +1521,11 @@
             "SUMMONING_EYE": 1
         }
     },
-    "OCTOPUS_TENDRIL": {
-        "item_id": "OCTOPUS_TENDRIL",
-        "ingredients": {}
-    },
-    "OIL_BARREL": {
-        "item_id": "OIL_BARREL",
-        "ingredients": {}
-    },
-    "OLD_FRAGMENT": {
-        "item_id": "OLD_FRAGMENT",
-        "ingredients": {}
-    },
-    "OLD_LEATHER_BOOT": {
-        "item_id": "OLD_LEATHER_BOOT",
-        "ingredients": {}
-    },
     "OMEGA_EGG": {
         "item_id": "OMEGA_EGG",
         "ingredients": {
             "SUPER_EGG": 9
         }
-    },
-    "ONYX": {
-        "item_id": "ONYX",
-        "ingredients": {}
-    },
-    "OPTICAL_LENS": {
-        "item_id": "OPTICAL_LENS",
-        "ingredients": {}
-    },
-    "ORB_OF_ENERGY": {
-        "item_id": "ORB_OF_ENERGY",
-        "ingredients": {}
-    },
-    "OVERFLOWING_TRASH_CAN": {
-        "item_id": "OVERFLOWING_TRASH_CAN",
-        "ingredients": {}
-    },
-    "OVERGROWN_GRASS": {
-        "item_id": "OVERGROWN_GRASS",
-        "ingredients": {}
     },
     "PACKED_ICE": {
         "item_id": "PACKED_ICE",
@@ -2665,132 +1533,12 @@
             "ICE": 9
         }
     },
-    "PARTY_GIFT": {
-        "item_id": "PARTY_GIFT",
-        "ingredients": {}
-    },
-    "PERFECT_AMBER_GEM": {
-        "item_id": "PERFECT_AMBER_GEM",
-        "ingredients": {}
-    },
-    "PERFECT_AMETHYST_GEM": {
-        "item_id": "PERFECT_AMETHYST_GEM",
-        "ingredients": {}
-    },
-    "PERFECT_AQUAMARINE_GEM": {
-        "item_id": "PERFECT_AQUAMARINE_GEM",
-        "ingredients": {}
-    },
-    "PERFECT_CITRINE_GEM": {
-        "item_id": "PERFECT_CITRINE_GEM",
-        "ingredients": {}
-    },
-    "PERFECT_JADE_GEM": {
-        "item_id": "PERFECT_JADE_GEM",
-        "ingredients": {}
-    },
-    "PERFECT_JASPER_GEM": {
-        "item_id": "PERFECT_JASPER_GEM",
-        "ingredients": {}
-    },
-    "PERFECT_ONYX_GEM": {
-        "item_id": "PERFECT_ONYX_GEM",
-        "ingredients": {}
-    },
-    "PERFECT_OPAL_GEM": {
-        "item_id": "PERFECT_OPAL_GEM",
-        "ingredients": {}
-    },
-    "PERFECT_PERIDOT_GEM": {
-        "item_id": "PERFECT_PERIDOT_GEM",
-        "ingredients": {}
-    },
-    "PERFECT_PLATE": {
-        "item_id": "PERFECT_PLATE",
-        "ingredients": {}
-    },
-    "PERFECT_RUBY_GEM": {
-        "item_id": "PERFECT_RUBY_GEM",
-        "ingredients": {}
-    },
-    "PERFECT_SAPPHIRE_GEM": {
-        "item_id": "PERFECT_SAPPHIRE_GEM",
-        "ingredients": {}
-    },
-    "PERFECT_TOPAZ_GEM": {
-        "item_id": "PERFECT_TOPAZ_GEM",
-        "ingredients": {}
-    },
-    "PESTHUNTING_GUIDE": {
-        "item_id": "PESTHUNTING_GUIDE",
-        "ingredients": {}
-    },
-    "PETRIFIED_STARFALL": {
-        "item_id": "PETRIFIED_STARFALL",
-        "ingredients": {}
-    },
-    "PET_CAKE": {
-        "item_id": "PET_CAKE",
-        "ingredients": {}
-    },
-    "PET_ITEM_CHOCOLATE_SYRINGE": {
-        "item_id": "PET_ITEM_CHOCOLATE_SYRINGE",
-        "ingredients": {}
-    },
-    "PET_ITEM_EXP_SHARE_DROP": {
-        "item_id": "PET_ITEM_EXP_SHARE_DROP",
-        "ingredients": {}
-    },
-    "PET_ITEM_LUCKY_CLOVER_DROP": {
-        "item_id": "PET_ITEM_LUCKY_CLOVER_DROP",
-        "ingredients": {}
-    },
-    "PET_ITEM_PURE_MITHRIL_GEM": {
-        "item_id": "PET_ITEM_PURE_MITHRIL_GEM",
-        "ingredients": {}
-    },
-    "PET_ITEM_TIER_BOOST_DROP": {
-        "item_id": "PET_ITEM_TIER_BOOST_DROP",
-        "ingredients": {}
-    },
-    "PET_ITEM_TOY_JERRY": {
-        "item_id": "PET_ITEM_TOY_JERRY",
-        "ingredients": {}
-    },
-    "PET_ITEM_VAMPIRE_FANG": {
-        "item_id": "PET_ITEM_VAMPIRE_FANG",
-        "ingredients": {}
-    },
-    "PITCHIN_KOI": {
-        "item_id": "PITCHIN_KOI",
-        "ingredients": {}
-    },
-    "PLANT_MATTER": {
-        "item_id": "PLANT_MATTER",
-        "ingredients": {}
-    },
-    "PLASMA": {
-        "item_id": "PLASMA",
-        "ingredients": {}
-    },
     "PLASMA_BUCKET": {
         "item_id": "PLASMA_BUCKET",
         "ingredients": {
             "MAGMA_BUCKET": 2,
             "HEAT_CORE": 1
         }
-    },
-    "POCKET_ICEBERG": {
-        "item_id": "POCKET_ICEBERG",
-        "ingredients": {}
-    },
-    "POISONOUS_POTATO": {
-        "item_id": "POISONOUS_POTATO",
-        "ingredients": {}
-    },
-    "POISON_SAMPLE": {
-        "item_id": "POISON_SAMPLE",
-        "ingredients": {}
     },
     "POLARVOID_BOOK": {
         "item_id": "POLARVOID_BOOK",
@@ -2805,26 +1553,6 @@
             "ENCHANTED_PUMPKIN": 160
         }
     },
-    "PORK": {
-        "item_id": "PORK",
-        "ingredients": {}
-    },
-    "POTATO_ITEM": {
-        "item_id": "POTATO_ITEM",
-        "ingredients": {}
-    },
-    "POTATO_SPREADING": {
-        "item_id": "POTATO_SPREADING",
-        "ingredients": {}
-    },
-    "POWER_CRYSTAL": {
-        "item_id": "POWER_CRYSTAL",
-        "ingredients": {}
-    },
-    "PRECIOUS_PEARL": {
-        "item_id": "PRECIOUS_PEARL",
-        "ingredients": {}
-    },
     "PRECURSOR_APPARATUS": {
         "item_id": "PRECURSOR_APPARATUS",
         "ingredients": {
@@ -2836,14 +1564,6 @@
             "SYNTHETIC_HEART": 1
         }
     },
-    "PRECURSOR_GEAR": {
-        "item_id": "PRECURSOR_GEAR",
-        "ingredients": {}
-    },
-    "PREMIUM_FLESH": {
-        "item_id": "PREMIUM_FLESH",
-        "ingredients": {}
-    },
     "PRESUMED_GALLON_OF_RED_PAINT": {
         "item_id": "PRESUMED_GALLON_OF_RED_PAINT",
         "ingredients": {
@@ -2852,22 +1572,6 @@
             "ENCHANTED_DARK_OAK_LOG": 80
         }
     },
-    "PRISMARINE_CRYSTALS": {
-        "item_id": "PRISMARINE_CRYSTALS",
-        "ingredients": {}
-    },
-    "PRISMARINE_SHARD": {
-        "item_id": "PRISMARINE_SHARD",
-        "ingredients": {}
-    },
-    "PROTECTOR_FRAGMENT": {
-        "item_id": "PROTECTOR_FRAGMENT",
-        "ingredients": {}
-    },
-    "PUMPKIN": {
-        "item_id": "PUMPKIN",
-        "ingredients": {}
-    },
     "PUMPKIN_BOMB": {
         "item_id": "PUMPKIN_BOMB",
         "ingredients": {
@@ -2875,131 +1579,11 @@
             "PUMPKIN_GUTS": 1
         }
     },
-    "PUMPKIN_GUTS": {
-        "item_id": "PUMPKIN_GUTS",
-        "ingredients": {}
-    },
-    "PURE_MITHRIL": {
-        "item_id": "PURE_MITHRIL",
-        "ingredients": {}
-    },
-    "PURPLE_CANDY": {
-        "item_id": "PURPLE_CANDY",
-        "ingredients": {}
-    },
-    "PYROCLASTIC_SCALE": {
-        "item_id": "PYROCLASTIC_SCALE",
-        "ingredients": {}
-    },
-    "QUARTZ": {
-        "item_id": "QUARTZ",
-        "ingredients": {}
-    },
-    "RABBIT": {
-        "item_id": "RABBIT",
-        "ingredients": {}
-    },
-    "RABBIT_FOOT": {
-        "item_id": "RABBIT_FOOT",
-        "ingredients": {}
-    },
-    "RABBIT_HIDE": {
-        "item_id": "RABBIT_HIDE",
-        "ingredients": {}
-    },
-    "RADIOACTIVE_VIAL": {
-        "item_id": "RADIOACTIVE_VIAL",
-        "ingredients": {}
-    },
-    "RARE_DIAMOND": {
-        "item_id": "RARE_DIAMOND",
-        "ingredients": {}
-    },
-    "RAW_BEEF": {
-        "item_id": "RAW_BEEF",
-        "ingredients": {}
-    },
-    "RAW_CHICKEN": {
-        "item_id": "RAW_CHICKEN",
-        "ingredients": {}
-    },
-    "RAW_FISH": {
-        "item_id": "RAW_FISH",
-        "ingredients": {}
-    },
-    "RAW_SOULFLOW": {
-        "item_id": "RAW_SOULFLOW",
-        "ingredients": {}
-    },
-    "REAPER_PEPPER": {
-        "item_id": "REAPER_PEPPER",
-        "ingredients": {}
-    },
-    "RECOMBOBULATOR_3000": {
-        "item_id": "RECOMBOBULATOR_3000",
-        "ingredients": {}
-    },
     "REDSTONE": {
         "item_id": "REDSTONE",
         "ingredients": {
             "REDSTONE_BLOCK": 1
         }
-    },
-    "RED_GIFT": {
-        "item_id": "RED_GIFT",
-        "ingredients": {}
-    },
-    "RED_MUSHROOM": {
-        "item_id": "RED_MUSHROOM",
-        "ingredients": {}
-    },
-    "RED_NOSE": {
-        "item_id": "RED_NOSE",
-        "ingredients": {}
-    },
-    "RED_ROSE": {
-        "item_id": "RED_ROSE",
-        "ingredients": {}
-    },
-    "RED_SCARF": {
-        "item_id": "RED_SCARF",
-        "ingredients": {}
-    },
-    "REFINED_AMBER": {
-        "item_id": "REFINED_AMBER",
-        "ingredients": {}
-    },
-    "REFINED_BOTTLE_OF_JYRRE": {
-        "item_id": "REFINED_BOTTLE_OF_JYRRE",
-        "ingredients": {}
-    },
-    "REFINED_DARK_CACAO_TRUFFLE": {
-        "item_id": "REFINED_DARK_CACAO_TRUFFLE",
-        "ingredients": {}
-    },
-    "REFINED_DIAMOND": {
-        "item_id": "REFINED_DIAMOND",
-        "ingredients": {}
-    },
-    "REFINED_MINERAL": {
-        "item_id": "REFINED_MINERAL",
-        "ingredients": {}
-    },
-    "REFINED_MITHRIL": {
-        "item_id": "REFINED_MITHRIL",
-        "ingredients": {}
-    },
-    "REFINED_TITANIUM": {
-        "item_id": "REFINED_TITANIUM",
-        "ingredients": {}
-    },
-    "REFINED_TUNGSTEN": {
-        "item_id": "REFINED_TUNGSTEN",
-        "ingredients": {}
-    },
-    "REFINED_UMBER": {
-        "item_id": "REFINED_UMBER",
-        "ingredients": {}
     },
     "REHEATED_GUMMY_POLAR_BEAR": {
         "item_id": "REHEATED_GUMMY_POLAR_BEAR",
@@ -3009,136 +1593,12 @@
             "ENCHANTED_SNOW_BLOCK": 4
         }
     },
-    "REKINDLED_EMBER_FRAGMENT": {
-        "item_id": "REKINDLED_EMBER_FRAGMENT",
-        "ingredients": {}
-    },
-    "REVENANT_CATALYST": {
-        "item_id": "REVENANT_CATALYST",
-        "ingredients": {}
-    },
-    "REVENANT_FLESH": {
-        "item_id": "REVENANT_FLESH",
-        "ingredients": {}
-    },
     "REVENANT_VISCERA": {
         "item_id": "REVENANT_VISCERA",
         "ingredients": {
             "REVENANT_FLESH": 128,
             "ENCHANTED_STRING": 32
         }
-    },
-    "RITUAL_RESIDUE": {
-        "item_id": "RITUAL_RESIDUE",
-        "ingredients": {}
-    },
-    "ROBOTRON_REFLECTOR": {
-        "item_id": "ROBOTRON_REFLECTOR",
-        "ingredients": {}
-    },
-    "ROCK_CANDY": {
-        "item_id": "ROCK_CANDY",
-        "ingredients": {}
-    },
-    "ROCK_GEMSTONE": {
-        "item_id": "ROCK_GEMSTONE",
-        "ingredients": {}
-    },
-    "ROTTEN_FLESH": {
-        "item_id": "ROTTEN_FLESH",
-        "ingredients": {}
-    },
-    "ROUGH_AMBER_GEM": {
-        "item_id": "ROUGH_AMBER_GEM",
-        "ingredients": {}
-    },
-    "ROUGH_AMETHYST_GEM": {
-        "item_id": "ROUGH_AMETHYST_GEM",
-        "ingredients": {}
-    },
-    "ROUGH_AQUAMARINE_GEM": {
-        "item_id": "ROUGH_AQUAMARINE_GEM",
-        "ingredients": {}
-    },
-    "ROUGH_CITRINE_GEM": {
-        "item_id": "ROUGH_CITRINE_GEM",
-        "ingredients": {}
-    },
-    "ROUGH_JADE_GEM": {
-        "item_id": "ROUGH_JADE_GEM",
-        "ingredients": {}
-    },
-    "ROUGH_JASPER_GEM": {
-        "item_id": "ROUGH_JASPER_GEM",
-        "ingredients": {}
-    },
-    "ROUGH_ONYX_GEM": {
-        "item_id": "ROUGH_ONYX_GEM",
-        "ingredients": {}
-    },
-    "ROUGH_OPAL_GEM": {
-        "item_id": "ROUGH_OPAL_GEM",
-        "ingredients": {}
-    },
-    "ROUGH_PERIDOT_GEM": {
-        "item_id": "ROUGH_PERIDOT_GEM",
-        "ingredients": {}
-    },
-    "ROUGH_RUBY_GEM": {
-        "item_id": "ROUGH_RUBY_GEM",
-        "ingredients": {}
-    },
-    "ROUGH_SAPPHIRE_GEM": {
-        "item_id": "ROUGH_SAPPHIRE_GEM",
-        "ingredients": {}
-    },
-    "ROUGH_TOPAZ_GEM": {
-        "item_id": "ROUGH_TOPAZ_GEM",
-        "ingredients": {}
-    },
-    "RUSTY_ANCHOR": {
-        "item_id": "RUSTY_ANCHOR",
-        "ingredients": {}
-    },
-    "RUSTY_COIN": {
-        "item_id": "RUSTY_COIN",
-        "ingredients": {}
-    },
-    "SADAN_BROOCH": {
-        "item_id": "SADAN_BROOCH",
-        "ingredients": {}
-    },
-    "SALMON_OPAL": {
-        "item_id": "SALMON_OPAL",
-        "ingredients": {}
-    },
-    "SALT_CUBE": {
-        "item_id": "SALT_CUBE",
-        "ingredients": {}
-    },
-    "SAND": {
-        "item_id": "SAND",
-        "ingredients": {}
-    },
-    "SCARF_FRAGMENT": {
-        "item_id": "SCARF_FRAGMENT",
-        "ingredients": {}
-    },
-    "SCORCHED_BOOKS": {
-        "item_id": "SCORCHED_BOOKS",
-        "ingredients": {}
-    },
-    "SCORCHED_CRAB_STICK": {
-        "item_id": "SCORCHED_CRAB_STICK",
-        "ingredients": {}
-    },
-    "SCORCHED_POWER_CRYSTAL": {
-        "item_id": "SCORCHED_POWER_CRYSTAL",
-        "ingredients": {}
-    },
-    "SCUTTLER_SHELL": {
-        "item_id": "SCUTTLER_SHELL",
-        "ingredients": {}
     },
     "SEARING_STONE": {
         "item_id": "SEARING_STONE",
@@ -3148,31 +1608,11 @@
             "ENCHANTED_NETHERRACK": 30
         }
     },
-    "SECOND_MASTER_STAR": {
-        "item_id": "SECOND_MASTER_STAR",
-        "ingredients": {}
-    },
-    "SEEDS": {
-        "item_id": "SEEDS",
-        "ingredients": {}
-    },
-    "SEVERED_PINCER": {
-        "item_id": "SEVERED_PINCER",
-        "ingredients": {}
-    },
-    "SHADOW_WARP_SCROLL": {
-        "item_id": "SHADOW_WARP_SCROLL",
-        "ingredients": {}
-    },
     "SHARK_BAIT": {
         "item_id": "SHARK_BAIT",
         "ingredients": {
             "SHARK_FIN": 2
         }
-    },
-    "SHARK_FIN": {
-        "item_id": "SHARK_FIN",
-        "ingredients": {}
     },
     "SHARK_WATER_ORB": {
         "item_id": "SHARK_WATER_ORB",
@@ -3204,41 +1644,17 @@
             "CARROT_ITEM": 576
         }
     },
-    "SINGED_POWDER": {
-        "item_id": "SINGED_POWDER",
-        "ingredients": {}
-    },
-    "SKELETON_KEY": {
-        "item_id": "SKELETON_KEY",
-        "ingredients": {}
-    },
-    "SKYMART_BROCHURE": {
-        "item_id": "SKYMART_BROCHURE",
-        "ingredients": {}
-    },
-    "SLEEPY_HOLLOW": {
-        "item_id": "SLEEPY_HOLLOW",
-        "ingredients": {}
-    },
     "SLIME_BALL": {
         "item_id": "SLIME_BALL",
         "ingredients": {
             "SLIME_BLOCK": 1
         }
     },
-    "SLUDGE_JUICE": {
-        "item_id": "SLUDGE_JUICE",
-        "ingredients": {}
-    },
     "SMALL_ENCHANTED_CHEST": {
         "item_id": "SMALL_ENCHANTED_CHEST",
         "ingredients": {
             "LOG": 64
         }
-    },
-    "SNOW_BALL": {
-        "item_id": "SNOW_BALL",
-        "ingredients": {}
     },
     "SNOW_BLOCK": {
         "item_id": "SNOW_BLOCK",
@@ -3253,10 +1669,6 @@
             "ENCHANTED_QUARTZ": 192,
             "WOOD": 3
         }
-    },
-    "SORROW": {
-        "item_id": "SORROW",
-        "ingredients": {}
     },
     "SOULFLOW": {
         "item_id": "SOULFLOW",
@@ -3273,30 +1685,6 @@
             "REFINED_TITANIUM": 12
         }
     },
-    "SOUL_FRAGMENT": {
-        "item_id": "SOUL_FRAGMENT",
-        "ingredients": {}
-    },
-    "SOUL_STRING": {
-        "item_id": "SOUL_STRING",
-        "ingredients": {}
-    },
-    "SPECTRE_DUST": {
-        "item_id": "SPECTRE_DUST",
-        "ingredients": {}
-    },
-    "SPELL_POWDER": {
-        "item_id": "SPELL_POWDER",
-        "ingredients": {}
-    },
-    "SPIDER_CATALYST": {
-        "item_id": "SPIDER_CATALYST",
-        "ingredients": {}
-    },
-    "SPIDER_EYE": {
-        "item_id": "SPIDER_EYE",
-        "ingredients": {}
-    },
     "SPIKED_BAIT": {
         "item_id": "SPIKED_BAIT",
         "ingredients": {
@@ -3304,36 +1692,12 @@
             "RAW_FISH-3": 1
         }
     },
-    "SPIRIT_BONE": {
-        "item_id": "SPIRIT_BONE",
-        "ingredients": {}
-    },
-    "SPIRIT_DECOY": {
-        "item_id": "SPIRIT_DECOY",
-        "ingredients": {}
-    },
-    "SPIRIT_LEAP": {
-        "item_id": "SPIRIT_LEAP",
-        "ingredients": {}
-    },
-    "SPIRIT_WING": {
-        "item_id": "SPIRIT_WING",
-        "ingredients": {}
-    },
-    "SPONGE": {
-        "item_id": "SPONGE",
-        "ingredients": {}
-    },
     "SPOOKY_BAIT": {
         "item_id": "SPOOKY_BAIT",
         "ingredients": {
             "PUMPKIN": 1,
             "RAW_FISH": 1
         }
-    },
-    "SPOOKY_SHARD": {
-        "item_id": "SPOOKY_SHARD",
-        "ingredients": {}
     },
     "SPOOKY_WATER_ORB": {
         "item_id": "SPOOKY_WATER_ORB",
@@ -3344,51 +1708,11 @@
             "WATER_ORB": 1
         }
     },
-    "SPOTLITE": {
-        "item_id": "SPOTLITE",
-        "ingredients": {}
-    },
-    "SQUASH": {
-        "item_id": "SQUASH",
-        "ingredients": {}
-    },
-    "SQUEAKY_TOY": {
-        "item_id": "SQUEAKY_TOY",
-        "ingredients": {}
-    },
-    "STARFALL": {
-        "item_id": "STARFALL",
-        "ingredients": {}
-    },
-    "STOCK_OF_STONKS": {
-        "item_id": "STOCK_OF_STONKS",
-        "ingredients": {}
-    },
-    "STRING": {
-        "item_id": "STRING",
-        "ingredients": {}
-    },
-    "STRONG_FRAGMENT": {
-        "item_id": "STRONG_FRAGMENT",
-        "ingredients": {}
-    },
     "STUFFED_CHILI_PEPPER": {
         "item_id": "STUFFED_CHILI_PEPPER",
         "ingredients": {
             "CHILI_PEPPER": 160
         }
-    },
-    "SUBZERO_INVERTER": {
-        "item_id": "SUBZERO_INVERTER",
-        "ingredients": {}
-    },
-    "SUGAR_CANE": {
-        "item_id": "SUGAR_CANE",
-        "ingredients": {}
-    },
-    "SULPHUR": {
-        "item_id": "SULPHUR",
-        "ingredients": {}
     },
     "SULPHURIC_COAL": {
         "item_id": "SULPHURIC_COAL",
@@ -3397,32 +1721,12 @@
             "ENCHANTED_SULPHUR": 1
         }
     },
-    "SULPHUR_ORE": {
-        "item_id": "SULPHUR_ORE",
-        "ingredients": {}
-    },
-    "SUMMONING_EYE": {
-        "item_id": "SUMMONING_EYE",
-        "ingredients": {}
-    },
-    "SUPERBOOM_TNT": {
-        "item_id": "SUPERBOOM_TNT",
-        "ingredients": {}
-    },
     "SUPERB_CARROT_CANDY": {
         "item_id": "SUPERB_CARROT_CANDY",
         "ingredients": {
             "ENCHANTED_GOLDEN_CARROT": 24,
             "GREAT_CARROT_CANDY": 1
         }
-    },
-    "SUPERIOR_FRAGMENT": {
-        "item_id": "SUPERIOR_FRAGMENT",
-        "ingredients": {}
-    },
-    "SUPERLITE_MOTOR": {
-        "item_id": "SUPERLITE_MOTOR",
-        "ingredients": {}
     },
     "SUPER_COMPACTOR_3000": {
         "item_id": "SUPER_COMPACTOR_3000",
@@ -3448,40 +1752,12 @@
             "BOWL": 1
         }
     },
-    "SUPREME_CHOCOLATE_BAR": {
-        "item_id": "SUPREME_CHOCOLATE_BAR",
-        "ingredients": {}
-    },
-    "SUSPICIOUS_SCRAP": {
-        "item_id": "SUSPICIOUS_SCRAP",
-        "ingredients": {}
-    },
-    "SUSPICIOUS_VIAL": {
-        "item_id": "SUSPICIOUS_VIAL",
-        "ingredients": {}
-    },
-    "SYNTHETIC_HEART": {
-        "item_id": "SYNTHETIC_HEART",
-        "ingredients": {}
-    },
     "TARANTULA_SILK": {
         "item_id": "TARANTULA_SILK",
         "ingredients": {
             "TARANTULA_WEB": 128,
             "ENCHANTED_FLINT": 32
         }
-    },
-    "TARANTULA_WEB": {
-        "item_id": "TARANTULA_WEB",
-        "ingredients": {}
-    },
-    "TENTACLE_MEAT": {
-        "item_id": "TENTACLE_MEAT",
-        "ingredients": {}
-    },
-    "TERRY_SNOWGLOBE": {
-        "item_id": "TERRY_SNOWGLOBE",
-        "ingredients": {}
     },
     "TESSELLATED_ENDER_PEARL": {
         "item_id": "TESSELLATED_ENDER_PEARL",
@@ -3490,96 +1766,12 @@
             "ABSOLUTE_ENDER_PEARL": 80
         }
     },
-    "THE_ART_OF_PEACE": {
-        "item_id": "THE_ART_OF_PEACE",
-        "ingredients": {}
-    },
-    "THE_ART_OF_WAR": {
-        "item_id": "THE_ART_OF_WAR",
-        "ingredients": {}
-    },
-    "THIRD_MASTER_STAR": {
-        "item_id": "THIRD_MASTER_STAR",
-        "ingredients": {}
-    },
-    "THORN_FRAGMENT": {
-        "item_id": "THORN_FRAGMENT",
-        "ingredients": {}
-    },
-    "THUNDER_SHARDS": {
-        "item_id": "THUNDER_SHARDS",
-        "ingredients": {}
-    },
-    "TIGER_SHARK_TOOTH": {
-        "item_id": "TIGER_SHARK_TOOTH",
-        "ingredients": {}
-    },
-    "TIGHTLY_TIED_HAY_BALE": {
-        "item_id": "TIGHTLY_TIED_HAY_BALE",
-        "ingredients": {}
-    },
     "TITANIC_EXP_BOTTLE": {
         "item_id": "TITANIC_EXP_BOTTLE",
         "ingredients": {
             "ENCHANTED_LAPIS_LAZULI_BLOCK": 6,
             "GLASS_BOTTLE": 1
         }
-    },
-    "TITANIUM_ORE": {
-        "item_id": "TITANIUM_ORE",
-        "ingredients": {}
-    },
-    "TITANIUM_TESSERACT": {
-        "item_id": "TITANIUM_TESSERACT",
-        "ingredients": {}
-    },
-    "TITANOBOA_SHED": {
-        "item_id": "TITANOBOA_SHED",
-        "ingredients": {}
-    },
-    "TOIL_LOG": {
-        "item_id": "TOIL_LOG",
-        "ingredients": {}
-    },
-    "TORN_CLOTH": {
-        "item_id": "TORN_CLOTH",
-        "ingredients": {}
-    },
-    "TOXIC_ARROW_POISON": {
-        "item_id": "TOXIC_ARROW_POISON",
-        "ingredients": {}
-    },
-    "TRANSMISSION_TUNER": {
-        "item_id": "TRANSMISSION_TUNER",
-        "ingredients": {}
-    },
-    "TREASURE_BAIT": {
-        "item_id": "TREASURE_BAIT",
-        "ingredients": {}
-    },
-    "TREASURITE": {
-        "item_id": "TREASURITE",
-        "ingredients": {}
-    },
-    "TROUBLED_BUBBLE": {
-        "item_id": "TROUBLED_BUBBLE",
-        "ingredients": {}
-    },
-    "TUNGSTEN": {
-        "item_id": "TUNGSTEN",
-        "ingredients": {}
-    },
-    "TUNGSTEN_KEY": {
-        "item_id": "TUNGSTEN_KEY",
-        "ingredients": {}
-    },
-    "TUNGSTEN_PLATE": {
-        "item_id": "TUNGSTEN_PLATE",
-        "ingredients": {}
-    },
-    "TWILIGHT_ARROW_POISON": {
-        "item_id": "TWILIGHT_ARROW_POISON",
-        "ingredients": {}
     },
     "ULTIMATE_CARROT_CANDY": {
         "item_id": "ULTIMATE_CARROT_CANDY",
@@ -3588,47 +1780,11 @@
             "ULTIMATE_CARROT_CANDY_UPGRADE": 1
         }
     },
-    "UMBER": {
-        "item_id": "UMBER",
-        "ingredients": {}
-    },
-    "UMBER_KEY": {
-        "item_id": "UMBER_KEY",
-        "ingredients": {}
-    },
-    "UMBER_PLATE": {
-        "item_id": "UMBER_PLATE",
-        "ingredients": {}
-    },
-    "UNDEAD_CATALYST": {
-        "item_id": "UNDEAD_CATALYST",
-        "ingredients": {}
-    },
-    "UNSTABLE_FRAGMENT": {
-        "item_id": "UNSTABLE_FRAGMENT",
-        "ingredients": {}
-    },
     "VERY_CRUDE_GABAGOOL": {
         "item_id": "VERY_CRUDE_GABAGOOL",
         "ingredients": {
             "CRUDE_GABAGOOL": 192
         }
-    },
-    "VITAMIN_DEATH": {
-        "item_id": "VITAMIN_DEATH",
-        "ingredients": {}
-    },
-    "VOLCANIC_ROCK": {
-        "item_id": "VOLCANIC_ROCK",
-        "ingredients": {}
-    },
-    "VOLTA": {
-        "item_id": "VOLTA",
-        "ingredients": {}
-    },
-    "WATER_LILY": {
-        "item_id": "WATER_LILY",
-        "ingredients": {}
     },
     "WATER_ORB": {
         "item_id": "WATER_ORB",
@@ -3644,18 +1800,6 @@
             "ENCHANTED_CLOWNFISH": 8
         }
     },
-    "WEAK_WOLF_CATALYST": {
-        "item_id": "WEAK_WOLF_CATALYST",
-        "ingredients": {}
-    },
-    "WEREWOLF_SKIN": {
-        "item_id": "WEREWOLF_SKIN",
-        "ingredients": {}
-    },
-    "WHALE_BAIT": {
-        "item_id": "WHALE_BAIT",
-        "ingredients": {}
-    },
     "WHEAT": {
         "item_id": "WHEAT",
         "ingredients": {
@@ -3668,14 +1812,6 @@
             "ENCHANTED_MAGMA_CREAM": 160
         }
     },
-    "WHITE_GIFT": {
-        "item_id": "WHITE_GIFT",
-        "ingredients": {}
-    },
-    "WINTER_FRAGMENT": {
-        "item_id": "WINTER_FRAGMENT",
-        "ingredients": {}
-    },
     "WINTER_WATER_ORB": {
         "item_id": "WINTER_WATER_ORB",
         "ingredients": {
@@ -3686,38 +1822,6 @@
             "GREEN_GIFT": 16,
             "BLUE_ICE_HUNK": 32
         }
-    },
-    "WISE_FRAGMENT": {
-        "item_id": "WISE_FRAGMENT",
-        "ingredients": {}
-    },
-    "WISHING_COMPASS": {
-        "item_id": "WISHING_COMPASS",
-        "ingredients": {}
-    },
-    "WITHER_BLOOD": {
-        "item_id": "WITHER_BLOOD",
-        "ingredients": {}
-    },
-    "WITHER_CATALYST": {
-        "item_id": "WITHER_CATALYST",
-        "ingredients": {}
-    },
-    "WITHER_SHIELD_SCROLL": {
-        "item_id": "WITHER_SHIELD_SCROLL",
-        "ingredients": {}
-    },
-    "WITHER_SOUL": {
-        "item_id": "WITHER_SOUL",
-        "ingredients": {}
-    },
-    "WOLF_TOOTH": {
-        "item_id": "WOLF_TOOTH",
-        "ingredients": {}
-    },
-    "WOOD_SINGULARITY": {
-        "item_id": "WOOD_SINGULARITY",
-        "ingredients": {}
     },
     "WOOL": {
         "item_id": "WOOL",
@@ -3733,18 +1837,6 @@
             "CLAY_BALL": 1
         }
     },
-    "WORM_MEMBRANE": {
-        "item_id": "WORM_MEMBRANE",
-        "ingredients": {}
-    },
-    "WRIGGLING_LARVA": {
-        "item_id": "WRIGGLING_LARVA",
-        "ingredients": {}
-    },
-    "X": {
-        "item_id": "X",
-        "ingredients": {}
-    },
     "XLARGE_ENCHANTED_CHEST": {
         "item_id": "XLARGE_ENCHANTED_CHEST",
         "ingredients": {
@@ -3758,25 +1850,5 @@
             "MINION_STORAGE_EXPANDER": 1,
             "XLARGE_ENCHANTED_CHEST": 1
         }
-    },
-    "Y": {
-        "item_id": "Y",
-        "ingredients": {}
-    },
-    "YELLOW_FLOWER": {
-        "item_id": "YELLOW_FLOWER",
-        "ingredients": {}
-    },
-    "YOGGIE": {
-        "item_id": "YOGGIE",
-        "ingredients": {}
-    },
-    "YOUNG_FRAGMENT": {
-        "item_id": "YOUNG_FRAGMENT",
-        "ingredients": {}
-    },
-    "Z": {
-        "item_id": "Z",
-        "ingredients": {}
     }
 }
