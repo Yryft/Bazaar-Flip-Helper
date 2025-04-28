@@ -167,16 +167,20 @@ def load_crafts():
     return possible_crafts_bazaar
 
 def calculate_profit(bazaar_data, craft_data, ingredients):
+    nb_items = 0
+    nb_ingredients = 0
     profits = []
     craft = {}
         
     for item_id, product in bazaar_data["products"].items():
+        nb_items +=1
         print(f"{craft_data.get(item_id, {}).get("name", item_id)} : ")
         if item_id in ingredients:
             item_craft_profit = 0
             total_cost = 0
             for ingredient, quantity in ingredients[item_id]["ingredients"].items():
                 if ingredient in bazaar_data["products"] and bazaar_data["products"][ingredient]["buy_summary"] and bazaar_data["products"][ingredient]["sell_summary"]:
+                    nb_ingredients += 1
                     buy_price = bazaar_data["products"][ingredient]["sell_summary"][0]["pricePerUnit"]
                     sell_price = bazaar_data["products"][ingredient]["buy_summary"][0]["pricePerUnit"]
                     total_cost += round(buy_price, 1) * quantity
@@ -236,6 +240,7 @@ def calculate_profit(bazaar_data, craft_data, ingredients):
             'buy_moving_week': product["quick_status"]["buyMovingWeek"],
             'wiki': wiki_url  # Lien vers le wiki
         })
+    print(f"Items processed : {nb_items} | Ingredients processed : {nb_ingredients}")
     return profits
 
 # Fonction pour exécuter l'analyse et afficher les résultats

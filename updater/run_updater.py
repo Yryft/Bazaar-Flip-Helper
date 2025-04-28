@@ -40,6 +40,7 @@ def jsons():
                     item_id = data.get("internalname")
                     name = remove_color_codes(data.get("displayname", ""))
                     recipe = data.get("recipe", {})
+                    item_id = data.get("internalname", "")
                     wiki_links = data.get("info", [])
                     wiki_url = wiki_links[-1] if wiki_links else ""
 
@@ -47,6 +48,7 @@ def jsons():
                         output[item_id] = {
                             "name": name,
                             "recipe": recipe,
+                            "itemId": item_id,
                             "wiki": wiki_url
                         }
                 except json.JSONDecodeError:
